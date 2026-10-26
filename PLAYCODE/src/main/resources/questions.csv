@@ -1,0 +1,1001 @@
+﻿id,subject,topic,difficulty,question,optionA,optionB,optionC,optionD,correctAnswer
+1,Python,If Else,Medium,Which type stores True or False?,bool,int,str,float,A
+2,Python,Dictionaries,Hard,Which method returns keys?,keys(),getKeysOnly(),keyList(),allKeysOnly(),A
+3,Python,Dictionaries,Hard,Can dictionary keys be duplicated?,No,Yes,Only strings,Only integers,A
+4,Python,Tuples,Basic,Can a hashable tuple be a dictionary key?,Yes,No,Never,Only empty,A
+5,Java,Methods,Basic,Can a method return an array?,Yes,No,Only primitive,Only list,A
+6,Python,Tuples,Medium,What is tuple packing?,Putting values into a tuple,Sorting,Unpacking,Deleting,A
+7,Python,Lists,Medium,Which function returns sorted result?,sorted(),sort(),order(),arrange(),A
+8,Python,If Else,Basic,What is bool(0)?,False,True,0,None,A
+9,Python,OOP,Basic,Which function checks type?,type(),typeof(),classof(),kind(),A
+10,Java,Arrays,Hard,Which property gives array length?,length,size(),count(),capacity(),A
+11,Python,Functions,Basic,Which keyword creates lambda?,lambda,anon,function,defonly,A
+12,Java,Loops,Medium,What does i-- do?,Decreases i by 1,Increases i,Sets i to 1,Doubles i,A
+13,Python,Lists,Hard,Can lists contain duplicates?,Yes,No,Only strings,Only numbers,A
+14,Python,Exception Handling,Medium,What occurs for int('x')?,ValueError,TypeError,KeyError,IndexError,A
+15,Python,Strings,Hard,"What is ""Python""[-1]?",n,P,o,y,A
+16,Python,OOP,Hard,Can Python use abstract base classes?,Yes,No,Only Java,Only interfaces,A
+17,Java,Collections,Medium,Which interface does ArrayList implement?,List,Set,Map,QueueOnly,A
+18,Python,OOP,Medium,Which module supports abstract base classes?,abc,abstract,interface,oop,A
+19,Python,Sets,Basic,Which operator means intersection?,&,|,-,^,A
+20,Java,Exception Handling,Medium,Which block generally runs at the end?,finally,catch,try,throw,A
+21,Python,If Else,Hard,What is bool('')?,False,True,'',Error,A
+22,Java,Strings,Medium,"What is ""Java"".charAt(0)?",J,a,v,Java,A
+23,Java,Interfaces,Medium,Can an interface extend multiple interfaces?,Yes,No,Only one,Only two,A
+24,Python,If Else,Medium,Can if exist without else?,Yes,No,Only loops,Only functions,A
+25,Java,OOP,Basic,Can methods be overloaded?,Yes,No,Only constructors,Only interfaces,A
+26,Java,OOP,Hard,Which keyword creates an object?,new,create,object,make,A
+27,Java,Arrays,Basic,What is the first array index?,0,1,-1,10,A
+28,Python,Exception Handling,Hard,Which block runs for cleanup?,finally,except,else,always,A
+29,Python,Strings,Basic,What gives string length?,len(),length(),size(),count(),A
+30,Python,Strings,Hard,Which operator concatenates strings?,+,&,join,concat,A
+31,Java,Exception Handling,Hard,What is the superclass of Exception and Error?,Throwable,ObjectOnly,ExceptionOnly,ErrorOnly,A
+32,Java,Arrays,Hard,"What is int[] a={1,2,3}; a[1]?",2,1,3,0,A
+33,Python,Lists,Medium,Which method inserts at a position?,insert(),addAtOnly(),push(),place(),A
+34,Java,JDBC,Hard,What does rollback() do?,Undoes uncommitted changes,Commits data,Closes ResultSet,Creates table,A
+35,Java,Interfaces,Medium,Can an interface extend another interface?,Yes,No,Only classes,Only abstract classes,A
+36,Java,Strings,Hard,Which class is synchronized?,StringBuffer,StringBuilder,String,Character,A
+37,Python,Tuples,Hard,What creates a one-item tuple?,"(5,)",(5),[5],{5},A
+38,Python,Loops,Hard,Which keyword starts a for loop?,for,loop,repeat,iterate,A
+39,Python,Strings,Basic,Are Python strings immutable?,Yes,No,Only short strings,Only constants,A
+40,Java,Loops,Basic,What does i-- do?,Decreases i by 1,Increases i,Sets i to 1,Doubles i,A
+41,Java,Exception Handling,Medium,What exception occurs for invalid array index?,ArrayIndexOutOfBoundsException,IOException,ArithmeticException,ClassNotFoundException,A
+42,Java,Loops,Hard,Which statement stops a loop early?,break,continue,if,import,A
+43,Java,Exception Handling,Basic,What is the superclass of Exception and Error?,Throwable,ObjectOnly,ExceptionOnly,ErrorOnly,A
+44,Python,Exception Handling,Medium,What occurs for missing dictionary key?,KeyError,ValueError,IndexError,NameError,A
+45,Java,Collections,Hard,Which map preserves insertion order?,LinkedHashMap,HashMap,TreeMap,Hashtable,A
+46,Java,Collections,Medium,Which Map method gets a value?,get(),fetch(),value(),readOnly(),A
+47,Python,Strings,Medium,Which method removes outer whitespace?,strip(),trim(),remove(),clean(),A
+48,Python,Lists,Basic,Are lists mutable?,Yes,No,Only tuples,Only strings,A
+49,Java,Methods,Hard,What does void mean?,No return value,Returns 0,Returns null,Returns false,A
+50,Python,Functions,Hard,Can functions have multiple parameters?,Yes,No,Only two,Only defaults,A
+51,Python,Loops,Medium,Which keyword skips an iteration?,continue,break,nextloop,skip,A
+52,Python,OOP,Medium,Can classes have class variables?,Yes,No,Only static,Only constants,A
+53,Java,Collections,Basic,Can HashMap have a null key?,Yes,No,Only TreeMap,Only if empty,A
+54,Python,Loops,Medium,What does break do?,Ends nearest loop,Skips iteration,Ends program,Restarts loop,A
+55,Java,If Else,Medium,Which operator means NOT?,!,&&,||,!=,A
+56,Java,If Else,Medium,Which operator checks equality?,==,=,=>,equals,A
+57,Python,Lists,Medium,Which brackets create a list?,[],{},(),<>,A
+58,Java,If Else,Basic,Which operator checks not equal?,!=,==,=,<>,A
+59,Java,OOP,Medium,"Which concept means one interface, many forms?",Polymorphism,Encapsulation,Inheritance,Package,A
+60,Python,Functions,Medium,Can functions have multiple parameters?,Yes,No,Only two,Only defaults,A
+61,Java,Collections,Hard,Does HashSet allow duplicates?,No,Yes,Only strings,Only integers,A
+62,Java,Loops,Basic,Which keyword exits a loop?,break,continue,next,exitLoop,A
+63,Python,If Else,Hard,What does == compare?,Values,Assignment,Types only,Loops,A
+64,Java,OOP,Basic,Which keyword refers to parent members?,super,parent,base,this,A
+65,Python,Lists,Basic,Which method inserts at a position?,insert(),addAtOnly(),push(),place(),A
+66,Python,Tuples,Hard,Which method counts tuple values?,count(),frequency(),number(),occurs(),A
+67,Python,Tuples,Basic,What is tuple unpacking?,Assigning tuple elements to variables,Packing again,Sorting,Deleting,A
+68,Python,OOP,Basic,Which module supports abstract base classes?,abc,abstract,interface,oop,A
+69,Java,Loops,Medium,Which keyword skips the current iteration?,continue,break,return,skip,A
+70,Python,If Else,Hard,Which operator assigns a value?,=,==,:=,=>,A
+71,Java,Arrays,Basic,What happens for an invalid index?,ArrayIndexOutOfBoundsException,NullPointerException,IOException,SyntaxError,A
+72,Java,JDBC,Hard,Which method gets an integer column?,getInt(),readInt(),intValue(),fetchInt(),A
+73,Python,Loops,Hard,Can loops be nested?,Yes,No,Only for,Only while,A
+74,Python,Dictionaries,Hard,Can dictionary values be duplicated?,Yes,No,Only numbers,Only strings,A
+75,Java,Collections,Hard,Which method returns collection size?,size(),length,count(),capacity(),A
+76,Java,Collections,Hard,Which method adds to a List?,add(),put(),insertOnly(),pushOnly(),A
+77,Python,Tuples,Basic,Can tuples contain duplicates?,Yes,No,Only two,Only strings,A
+78,Java,If Else,Hard,Which operator means logical OR?,||,&&,!,==,A
+79,Python,Loops,Hard,What does range(3) produce?,"0,1,2","1,2,3","0,1,2,3",3 only,A
+80,Java,Exception Handling,Basic,Can try have multiple catch blocks?,Yes,No,Only two,Only one checked,A
+81,Python,Tuples,Medium,What is tuple unpacking?,Assigning tuple elements to variables,Packing again,Sorting,Deleting,A
+82,Java,Loops,Basic,Can for(;;) create an infinite loop?,Yes,No,Only with if,Only with break,A
+83,Java,Collections,Medium,Which method returns collection size?,size(),length,count(),capacity(),A
+84,Java,Loops,Medium,Which loop is commonly used when iterations are known?,for,if,switch,class,A
+85,Java,Exception Handling,Medium,Which block handles an exception?,catch,try,finally,throws,A
+86,Python,If Else,Hard,What is bool(1)?,True,False,1,None,A
+87,Python,Exception Handling,Hard,What is finally useful for?,Cleanup,Looping,Sorting,Inheritance,A
+88,Python,Dictionaries,Basic,What creates an empty set?,set(),{},[],(),A
+89,Python,Sets,Basic,Which method adds an element?,add(),append(),push(),insert(),A
+90,Java,Exception Handling,Medium,What exception occurs for a null reference?,NullPointerException,ArithmeticException,IOException,SQLException,A
+91,Java,Interfaces,Medium,Which keyword is used for interface inheritance?,extends,implements,inherits,uses,A
+92,Java,JDBC,Basic,Which package contains JDBC interfaces?,java.sql,java.jdbc,javax.db,java.database,A
+93,Python,If Else,Medium,Which operator means AND?,and,or,not,&&,A
+94,Java,OOP,Medium,Which keyword creates an object?,new,create,object,make,A
+95,Python,Sets,Hard,Which method adds an element?,add(),append(),push(),insert(),A
+96,Java,Methods,Hard,What is a parameter?,Input variable in a method,Returned value,Class,Exception,A
+97,Python,Sets,Basic,What does in test on a set?,Membership,Index,Length,Order,A
+98,Java,Loops,Hard,Which keyword exits a loop?,break,continue,next,exitLoop,A
+99,Java,Loops,Basic,Which statement moves to the next iteration?,continue,break,return,class,A
+100,Python,Functions,Medium,Can functions be passed as arguments?,Yes,No,Only classes,Only strings,A
+101,Python,Dictionaries,Basic,Can a list be a dictionary key?,No,Yes,Only empty,Only sorted,A
+102,Java,Interfaces,Basic,Which keyword implements an interface?,implements,extends,inherits,uses,A
+103,Python,Strings,Hard,What gives string length?,len(),length(),size(),count(),A
+104,Java,Collections,Basic,Which method gets a List element?,get(),fetch(),read(),item(),A
+105,Python,Lists,Hard,Are lists mutable?,Yes,No,Only tuples,Only strings,A
+106,Python,Lists,Hard,What is the first list index?,0,1,-1,Depends,A
+107,Python,Loops,Basic,Which function creates a number sequence?,range(),sequence(),numbers(),listRange(),A
+108,Python,Exception Handling,Basic,What occurs for incompatible operand types?,TypeError,ValueError,KeyError,IndexError,A
+109,Java,Strings,Medium,What method returns string length?,length(),size(),count(),length,A
+110,Python,Strings,Medium,Which type stores text?,str,string,char,text,A
+111,Python,If Else,Medium,What is 7 < 2?,True,False,7,2,B
+112,Python,Functions,Medium,What does len() return?,Length,Type,Index,Memory address,A
+113,Python,Exception Handling,Hard,Which keyword handles exceptions?,except,catch,handle,error,A
+114,Python,Functions,Basic,What does a function without explicit return give?,None,0,False,Empty string,A
+115,Java,Loops,Hard,Which loop executes at least once?,do-while,while,for,if,A
+116,Java,Methods,Medium,Can a method be private?,Yes,No,Only abstract,Only interface,A
+117,Java,Strings,Hard,Which class represents immutable text?,String,StringBuilder,StringBuffer,Text,A
+118,Python,Exception Handling,Medium,Can except catch a specific type?,Yes,No,Only Exception,Only Error,A
+119,Python,If Else,Hard,Which keyword starts a condition?,if,for,def,class,A
+120,Java,Collections,Hard,Which Map method gets a value?,get(),fetch(),value(),readOnly(),A
+121,Python,OOP,Hard,Can Python support multiple inheritance?,Yes,No,Only two classes,Only interfaces,A
+122,Java,Methods,Medium,Which keyword makes a method class-level?,static,class,global,shared,A
+123,Python,Dictionaries,Basic,What is an empty dictionary?,{},set(),[],None,A
+124,Java,Collections,Basic,Which Map method gets a value?,get(),fetch(),value(),readOnly(),A
+125,Java,OOP,Hard,Which concept allows parent-child reuse?,Inheritance,Encapsulation,Overloading,Casting,A
+126,Python,Loops,Basic,What does i -= 1 do?,Subtracts 1 from i,Adds 1,Sets i to 0,Doubles i,A
+127,Python,Loops,Medium,Can for iterate over a string?,Yes,No,Only lists,Only numbers,A
+128,Java,Methods,Hard,Can a method return an array?,Yes,No,Only primitive,Only list,A
+129,Python,OOP,Medium,What does OOP stand for?,Object-Oriented Programming,Object Output Process,Open Object Program,Ordered Object Processing,A
+130,Python,Functions,Basic,Which keyword defines a function?,def,function,fun,define,A
+131,Python,Loops,Hard,"What is range(1,4)?","1,2,3","1,2,3,4","0,1,2",4 only,A
+132,Python,Functions,Hard,What is a docstring?,Documentation string,Error message,Variable,Import,A
+133,Java,Collections,Basic,Which map preserves insertion order?,LinkedHashMap,HashMap,TreeMap,Hashtable,A
+134,Python,Exception Handling,Hard,Can except catch a specific type?,Yes,No,Only Exception,Only Error,A
+135,Python,If Else,Medium,What defines Python code blocks?,Indentation,Comments,Variables,Imports,A
+136,Java,Loops,Basic,"Which loop uses initialization, condition and update?",for,while,do-while,if,A
+137,Java,Arrays,Medium,Can arrays store primitive values?,Yes,No,Only int,Only char,A
+138,Java,OOP,Basic,Can an interface be instantiated directly?,No,Yes,Only static,Only final,A
+139,Java,If Else,Medium,What is the result of 7 < 2?,true,false,7,2,B
+140,Java,Loops,Medium,"Which loop uses initialization, condition and update?",for,while,do-while,if,A
+141,Java,If Else,Hard,Which operator checks not equal?,!=,==,=,<>,A
+142,Java,OOP,Hard,Which modifier allows access from anywhere?,public,private,protected,default,A
+143,Python,Dictionaries,Medium,Which method returns values?,values(),getValuesOnly(),valueList(),allValues(),A
+144,Java,Collections,Medium,Which interface does HashMap implement?,Map,List,Set,CollectionOnly,A
+145,Python,OOP,Hard,Which function checks type?,type(),typeof(),classof(),kind(),A
+146,Python,Strings,Basic,What does in test for strings?,Substring membership,Index only,Length,Type,A
+147,Python,Functions,Basic,What is lambda?,Anonymous function,Loop,Class,Exception,A
+148,Java,OOP,Hard,Can methods be overloaded?,Yes,No,Only constructors,Only interfaces,A
+149,Python,Functions,Medium,What is an argument?,Value passed to a function,Function name,Return type,Module,A
+150,Java,Exception Handling,Medium,Which keyword declares exceptions?,throws,throw,catch,try,A
+151,Python,Lists,Hard,Which function returns sorted result?,sorted(),sort(),order(),arrange(),A
+152,Java,Strings,Basic,Can String objects be changed after creation?,No,Yes,Only with final,Only in loops,A
+153,Python,Exception Handling,Medium,Can there be multiple except blocks?,Yes,No,Only two,Only one,A
+154,Java,Methods,Medium,Can methods accept primitive values?,Yes,No,Only objects,Only strings,A
+155,Python,Strings,Hard,Which method removes outer whitespace?,strip(),trim(),remove(),clean(),A
+156,Java,JDBC,Basic,Which method closes a JDBC resource?,close(),end(),disconnect(),stop(),A
+157,Java,Exception Handling,Basic,What exception occurs for integer division by zero?,ArithmeticException,IOException,NullPointerException,NumberException,A
+158,Python,Tuples,Hard,Are tuples ordered?,Yes,No,Only empty,Only nested,A
+159,Java,Loops,Basic,What is printed by for(int i=0;i<3;i++) print(i)?,012,123,001,321,A
+160,Python,OOP,Hard,What does OOP stand for?,Object-Oriented Programming,Object Output Process,Open Object Program,Ordered Object Processing,A
+161,Python,Loops,Hard,What does break do?,Ends nearest loop,Skips iteration,Ends program,Restarts loop,A
+162,Python,Sets,Medium,Which structure removes duplicates?,set,list,tuple,string,A
+163,Python,Lists,Hard,"What is [1,2,3][1]?",2,1,3,0,A
+164,Python,Tuples,Basic,Which brackets create a tuple?,(),[],{},<>,A
+165,Python,OOP,Basic,Can Python use abstract base classes?,Yes,No,Only Java,Only interfaces,A
+166,Python,Tuples,Medium,Are tuples mutable?,No,Yes,Only numbers,Only strings,A
+167,Java,Collections,Hard,Which interface does HashMap implement?,Map,List,Set,CollectionOnly,A
+168,Python,Tuples,Hard,"What is (1,2,3)[1]?",2,1,3,0,A
+169,Java,Exception Handling,Basic,Can catch handle a parent exception type?,Yes,No,Only Error,Only IOException,A
+170,Java,Exception Handling,Basic,What exception occurs for a null reference?,NullPointerException,ArithmeticException,IOException,SQLException,A
+171,Java,Interfaces,Basic,What does an interface mainly define?,A contract,A database,A loop,A package,A
+172,Java,JDBC,Medium,Which method closes a JDBC resource?,close(),end(),disconnect(),stop(),A
+173,Java,Arrays,Basic,Can arrays be multidimensional?,Yes,No,Only 2D,Only 3D,A
+174,Python,Exception Handling,Hard,What occurs for division by zero?,ZeroDivisionError,ArithmeticErrorOnly,ValueError,TypeError,A
+175,Java,JDBC,Hard,Which interface represents a database connection?,Connection,Driver,Statement,Database,A
+176,Java,Interfaces,Basic,Can a class extend one class and implement interfaces?,Yes,No,Only interfaces,Only two classes,A
+177,Java,Collections,Basic,Which list is linked?,LinkedList,HashSet,TreeSet,HashMap,A
+178,Java,Collections,Basic,Which Map method adds a key-value pair?,put(),add(),setOnly(),insert(),A
+179,Python,Functions,Basic,Can functions have default parameters?,Yes,No,Only one,Only strings,A
+180,Python,Tuples,Medium,Can a hashable tuple be a dictionary key?,Yes,No,Never,Only empty,A
+181,Java,JDBC,Hard,Which method gets a string column?,getString(),readString(),stringValue(),fetchString(),A
+182,Python,Tuples,Medium,What creates a one-item tuple?,"(5,)",(5),[5],{5},A
+183,Java,Interfaces,Medium,Can interfaces have constructors?,No,Yes,Only private,Only default,A
+184,Python,If Else,Medium,Which operator assigns a value?,=,==,:=,=>,A
+185,Python,Functions,Hard,Which keyword creates lambda?,lambda,anon,function,defonly,A
+186,Java,Arrays,Hard,Can arrays store primitive values?,Yes,No,Only int,Only char,A
+187,Java,Interfaces,Basic,Can an interface be instantiated directly?,No,Yes,Only static,Only default,A
+188,Java,Interfaces,Basic,Which keyword is used for interface inheritance?,extends,implements,inherits,uses,A
+189,Python,Strings,Hard,Which method checks prefix?,startswith(),starts(),prefix(),begin(),A
+190,Python,Dictionaries,Hard,Can a tuple be a dictionary key?,Yes if hashable,No,Only empty,Only tuple of lists,A
+191,Python,Strings,Hard,What does in test for strings?,Substring membership,Index only,Length,Type,A
+192,Python,Functions,Medium,What is recursion?,Function calling itself,Function overloading,Function importing,Function sorting,A
+193,Python,Tuples,Basic,What gives tuple length?,len(),length(),size(),countAll(),A
+194,Java,Strings,Hard,What does isEmpty() check?,Whether length is 0,Whether value is null,Whether spaces exist,Whether uppercase,A
+195,Java,OOP,Basic,Which modifier allows access from anywhere?,public,private,protected,default,A
+196,Java,Methods,Basic,Which keyword makes a method class-level?,static,class,global,shared,A
+197,Java,Exception Handling,Medium,What does getMessage() return?,Exception message,Exception class only,Stack memory,Line number only,A
+198,Java,OOP,Basic,Which keyword refers to current object?,this,self,current,object,A
+199,Python,Lists,Basic,Which method finds an index?,index(),findIndex(),position(),locate(),A
+200,Java,Loops,Medium,How many times does while(false) execute?,0,1,2,Infinite,A
+201,Java,If Else,Medium,What is the result of 4 <= 3?,true,false,4,3,B
+202,Python,If Else,Hard,Which keyword handles the alternative?,else,elif,except,finally,A
+203,Python,Tuples,Hard,What is tuple packing?,Putting values into a tuple,Sorting,Unpacking,Deleting,A
+204,Python,Loops,Basic,Can while execute zero times?,Yes,No,Only with break,Only continue,A
+205,Python,Functions,Hard,Can functions have default parameters?,Yes,No,Only one,Only strings,A
+206,Python,Loops,Hard,What does continue do?,Skips current iteration,Ends loop,Returns value,Raises exception,A
+207,Java,Strings,Basic,What does isEmpty() check?,Whether length is 0,Whether value is null,Whether spaces exist,Whether uppercase,A
+208,Python,Strings,Medium,Are Python strings immutable?,Yes,No,Only short strings,Only constants,A
+209,Java,JDBC,Hard,Which object creates PreparedStatement?,Connection,ResultSet,Driver,Scanner,A
+210,Python,Functions,Medium,Can functions return multiple values?,Yes,No,Only list,Only string,A
+211,Java,Loops,Basic,What is the first array index?,0,1,-1,10,A
+212,Java,Arrays,Hard,What happens for an invalid index?,ArrayIndexOutOfBoundsException,NullPointerException,IOException,SyntaxError,A
+213,Python,Strings,Medium,Which method checks prefix?,startswith(),starts(),prefix(),begin(),A
+214,Python,Functions,Medium,What is lambda?,Anonymous function,Loop,Class,Exception,A
+215,Python,Tuples,Basic,"What is (1,2,3)[1]?",2,1,3,0,A
+216,Java,Exception Handling,Medium,Can catch handle a parent exception type?,Yes,No,Only Error,Only IOException,A
+217,Python,Tuples,Basic,What is ()?,Empty tuple,Empty list,Empty set,None,A
+218,Java,OOP,Hard,Can an interface be instantiated directly?,No,Yes,Only static,Only final,A
+219,Python,Strings,Basic,Which method removes outer whitespace?,strip(),trim(),remove(),clean(),A
+220,Python,Dictionaries,Basic,Must keys be hashable?,Yes,No,Only lists,Only dicts,A
+221,Java,Exception Handling,Basic,Which is a checked exception?,IOException,ArithmeticException,NullPointerException,ArrayIndexOutOfBoundsException,A
+222,Python,Dictionaries,Hard,What do dictionaries store?,Key-value pairs,Only values,Only keys,Numbers only,A
+223,Python,Exception Handling,Medium,What occurs for invalid list index?,IndexError,KeyError,ValueError,TypeError,A
+224,Java,If Else,Hard,Which keyword checks another condition?,else if,else,loop,check,A
+225,Python,OOP,Hard,Can classes have class variables?,Yes,No,Only static,Only constants,A
+226,Java,If Else,Basic,Which block runs when an if condition is false?,else,for,try,finally,A
+227,Python,If Else,Hard,Can if exist without else?,Yes,No,Only loops,Only functions,A
+228,Java,Interfaces,Basic,Which keyword declares an interface?,interface,Interface,implements,abstractOnly,A
+229,Python,Strings,Basic,"What is ""Python""[-1]?",n,P,o,y,A
+230,Python,If Else,Hard,Which keyword checks another condition?,elif,elseif,else if,check,A
+231,Java,Exception Handling,Hard,What exception occurs for a null reference?,NullPointerException,ArithmeticException,IOException,SQLException,A
+232,Python,Exception Handling,Hard,Can there be multiple except blocks?,Yes,No,Only two,Only one,A
+233,Java,JDBC,Medium,What does commit() do?,Makes transaction changes permanent,Starts query,Closes database,Deletes rows,A
+234,Python,Loops,Medium,What does i += 1 do?,Adds 1 to i,Subtracts 1,Doubles i,Sets i to 1,A
+235,Java,If Else,Medium,Which symbol starts a Java code block?,{,[,(,<,A
+236,Java,If Else,Medium,Can conditions be nested in Java?,Yes,No,Only in loops,Only in arrays,A
+237,Java,OOP,Medium,Can an abstract class be instantiated directly?,No,Yes,Only with new,Only in main,A
+238,Python,Exception Handling,Basic,What does try-else mean?,else runs if no exception,else runs on error,else always runs,else never runs,A
+239,Java,Strings,Hard,Can String objects be changed after creation?,No,Yes,Only with final,Only in loops,A
+240,Java,Exception Handling,Medium,Can a custom exception be created?,Yes,No,Only Error,Only IOException,A
+241,Java,If Else,Basic,What is the result of 10 == 10?,true,false,10,error,A
+242,Java,OOP,Basic,"Which concept means one interface, many forms?",Polymorphism,Encapsulation,Inheritance,Package,A
+243,Python,If Else,Basic,What is bool(1)?,True,False,1,None,A
+244,Python,Sets,Hard,Are sets indexed?,No,Yes,Only sorted,Only one-item,A
+245,Java,Exception Handling,Basic,Which is an unchecked exception?,ArithmeticException,IOException,SQLException,ClassNotFoundException,A
+246,Java,Arrays,Basic,Which method sorts an array?,Arrays.sort(),Arrays.order(),Array.sort(),sort.array(),A
+247,Java,Methods,Medium,Can methods accept object references?,Yes,No,Only arrays,Only interfaces,A
+248,Java,Loops,Medium,What is printed by for(int i=0;i<3;i++) print(i)?,012,123,001,321,A
+249,Java,Loops,Hard,Which loop is commonly used when iterations are known?,for,if,switch,class,A
+250,Java,Collections,Hard,Which collection stores key-value pairs?,HashMap,HashSet,ArrayList,TreeSet,A
+251,Java,Loops,Medium,What is the first array index?,0,1,-1,10,A
+252,Python,Exception Handling,Hard,What occurs for missing dictionary key?,KeyError,ValueError,IndexError,NameError,A
+253,Python,Sets,Hard,Which method removes without error if absent?,discard(),remove(),delete(),drop(),A
+254,Python,OOP,Hard,Which function checks instance?,isinstance(),instanceOf(),checkInstance(),typeIs(),A
+255,Java,Interfaces,Hard,What relationship does implements represent?,Class-to-interface,Class-to-class,Interface-to-package,Object-to-method,A
+256,Java,Exception Handling,Medium,Which is an unchecked exception?,ArithmeticException,IOException,SQLException,ClassNotFoundException,A
+257,Python,If Else,Medium,Which keyword checks another condition?,elif,elseif,else if,check,A
+258,Python,Strings,Basic,What does find return when absent?,-1,0,None,Error,A
+259,Python,Strings,Medium,Which method uppercases?,upper(),toUpper(),uppercase(),up(),A
+260,Java,If Else,Basic,Which operator means logical OR?,||,&&,!,==,A
+261,Python,Dictionaries,Medium,What creates an empty set?,set(),{},[],(),A
+262,Java,JDBC,Basic,What does rollback() do?,Undoes uncommitted changes,Commits data,Closes ResultSet,Creates table,A
+263,Java,Loops,Hard,Which statement moves to the next iteration?,continue,break,return,class,A
+264,Java,Collections,Basic,Which map sorts keys?,TreeMap,HashMap,LinkedHashMap,ArrayList,A
+265,Java,Interfaces,Basic,Interface abstract methods are implicitly?,public abstract,private,protected,static only,A
+266,Python,OOP,Medium,Which keyword defines a class?,class,Class,define,object,A
+267,Python,Sets,Hard,What does in test on a set?,Membership,Index,Length,Order,A
+268,Java,Interfaces,Medium,Can a class extend one class and implement interfaces?,Yes,No,Only interfaces,Only two classes,A
+269,Python,Lists,Medium,Can lists contain mixed types?,Yes,No,Only strings,Only numbers,A
+270,Java,Interfaces,Medium,What relationship does implements represent?,Class-to-interface,Class-to-class,Interface-to-package,Object-to-method,A
+271,Java,JDBC,Hard,Which method executes SELECT?,executeQuery(),executeUpdate(),runSelect(),query(),A
+272,Java,Arrays,Medium,What is the first array index?,0,1,-1,10,A
+273,Python,Strings,Basic,Which type stores text?,str,string,char,text,A
+274,Java,Collections,Basic,Which collection is ordered and allows duplicates?,ArrayList,HashSet,TreeSet,HashMap,A
+275,Python,If Else,Medium,Which operator means OR?,or,and,not,||,A
+276,Java,If Else,Basic,Can an if statement exist without else?,Yes,No,Only in loops,Only in methods,A
+277,Java,Strings,Hard,Which method returns part of a string?,substring(),part(),sliceOnly(),sub(),A
+278,Python,Lists,Basic,Which method adds at the end?,append(),add(),push(),put(),A
+279,Java,Loops,Medium,Can a loop contain another loop?,Yes,No,Only while,Only for,A
+280,Python,Sets,Medium,"What is {1,2,2,3}?","{1,2,3}","{1,2,2,3}","[1,2,3]",Error,A
+281,Python,Loops,Hard,Which keyword skips an iteration?,continue,break,nextloop,skip,A
+282,Python,Sets,Hard,Which operator means symmetric difference?,^,&,|,-,A
+283,Java,OOP,Hard,Which keyword defines a class?,class,Class,define,object,A
+284,Java,Collections,Hard,Which method gets a List element?,get(),fetch(),read(),item(),A
+285,Java,OOP,Basic,Can methods be overridden?,Yes,No,Only static,Only private,A
+286,Python,Dictionaries,Medium,What do dictionaries store?,Key-value pairs,Only values,Only keys,Numbers only,A
+287,Java,Interfaces,Basic,Can interfaces have static methods?,Yes,No,Only fields,Only constructors,A
+288,Java,Methods,Hard,Can a method be private?,Yes,No,Only abstract,Only interface,A
+289,Java,OOP,Medium,Can methods be overloaded?,Yes,No,Only constructors,Only interfaces,A
+290,Python,Exception Handling,Basic,Which block contains risky code?,try,catch,except,finally,A
+291,Python,Strings,Hard,Which method joins strings?,join(),concatList(),merge(),combine(),A
+292,Python,Sets,Hard,Which operator means difference?,-,|,&,^,A
+293,Python,If Else,Basic,Which keyword handles the alternative?,else,elif,except,finally,A
+294,Java,JDBC,Basic,What does commit() do?,Makes transaction changes permanent,Starts query,Closes database,Deletes rows,A
+295,Java,Interfaces,Basic,Can an abstract class implement an interface partially?,Yes,No,Only final,Only static,A
+296,Java,JDBC,Medium,Which package contains JDBC interfaces?,java.sql,java.jdbc,javax.db,java.database,A
+297,Python,Strings,Hard,Are Python strings immutable?,Yes,No,Only short strings,Only constants,A
+298,Java,Methods,Medium,Can a method return an array?,Yes,No,Only primitive,Only list,A
+299,Java,If Else,Basic,Which type stores true or false?,boolean,int,char,double,A
+300,Java,Strings,Basic,What gets a character by index?,charAt(),getChar(),character(),at(),A
+301,Python,If Else,Hard,Which operator means NOT?,not,!,and,no,A
+302,Java,Methods,Hard,Can methods be overloaded?,Yes,No,Only static,Only final,A
+303,Java,JDBC,Medium,What does rollback() do?,Undoes uncommitted changes,Commits data,Closes ResultSet,Creates table,A
+304,Java,Methods,Medium,What does void mean?,No return value,Returns 0,Returns null,Returns false,A
+305,Python,Sets,Medium,Which operator means intersection?,&,|,-,^,A
+306,Python,Strings,Hard,"What does ""abc"".find(""b"") return?",1,0,2,-1,A
+307,Java,Exception Handling,Hard,Which block contains risky code?,try,catch,finally,throw,A
+308,Python,Loops,Medium,What does i -= 1 do?,Subtracts 1 from i,Adds 1,Sets i to 0,Doubles i,A
+309,Python,Strings,Hard,Which type stores text?,str,string,char,text,A
+310,Python,Loops,Medium,Which keyword starts a for loop?,for,loop,repeat,iterate,A
+311,Python,Loops,Hard,Can for iterate over a list?,Yes,No,Only numbers,Only strings,A
+312,Python,If Else,Medium,What is bool(0)?,False,True,0,None,A
+313,Python,Loops,Medium,How many iterations are in range(5)?,5,4,6,0,A
+314,Python,Dictionaries,Basic,Can dictionary values be duplicated?,Yes,No,Only numbers,Only strings,A
+315,Java,Methods,Hard,Can the same method name use different parameters?,Yes,No,Only constructors,Only interfaces,A
+316,Java,JDBC,Basic,Which interface executes SQL?,Statement,Connection,ResultSet,Driver,A
+317,Java,OOP,Medium,Can methods be overridden?,Yes,No,Only static,Only private,A
+318,Java,Interfaces,Basic,Can a class implement multiple interfaces?,Yes,No,Only two,Only one,A
+319,Python,Dictionaries,Medium,What does pop(key) do?,Removes and returns value,Adds key,Sorts keys,Copies dict,A
+320,Java,OOP,Basic,Which modifier is most restrictive?,private,public,protected,default,A
+321,Java,Loops,Medium,Which statement stops a loop early?,break,continue,if,import,A
+322,Java,Arrays,Hard,Default object array values are?,null,0,false,empty,A
+323,Java,Exception Handling,Basic,Which block generally runs at the end?,finally,catch,try,throw,A
+324,Python,Lists,Medium,What does -1 mean?,Last item,First item,Second item,Length,A
+325,Python,Sets,Medium,Which operator means union?,|,&,-,^,A
+326,Python,If Else,Basic,Which operator means OR?,or,and,not,||,A
+327,Java,Exception Handling,Hard,Can finally exist without catch?,Yes,No,Only with throw,Only in loops,A
+328,Java,JDBC,Hard,Which package contains JDBC interfaces?,java.sql,java.jdbc,javax.db,java.database,A
+329,Python,Dictionaries,Basic,What does pop(key) do?,Removes and returns value,Adds key,Sorts keys,Copies dict,A
+330,Java,Arrays,Medium,What is the length of new int[10]?,10,9,11,0,A
+331,Python,Dictionaries,Basic,Which method returns keys?,keys(),getKeysOnly(),keyList(),allKeysOnly(),A
+332,Java,Exception Handling,Basic,What exception occurs for invalid array index?,ArrayIndexOutOfBoundsException,IOException,ArithmeticException,ClassNotFoundException,A
+333,Python,Dictionaries,Medium,Which method returns pairs?,items(),pairs(),entriesOnly(),all(),A
+334,Python,Lists,Medium,Which method counts occurrences?,count(),frequency(),occurs(),number(),A
+335,Java,If Else,Basic,What is the result of 5 > 3?,true,false,5,3,A
+336,Java,Exception Handling,Basic,Can a custom exception be created?,Yes,No,Only Error,Only IOException,A
+337,Python,Dictionaries,Basic,Can dictionary keys be duplicated?,No,Yes,Only strings,Only integers,A
+338,Python,If Else,Hard,What is bool(0)?,False,True,0,None,A
+339,Python,OOP,Medium,Which concept enables child classes to reuse behavior?,Inheritance,Parsing,Indexing,Exception,A
+340,Python,If Else,Medium,What is bool('')?,False,True,'',Error,A
+341,Java,JDBC,Medium,Which method gets a string column?,getString(),readString(),stringValue(),fetchString(),A
+342,Java,Methods,Basic,Can a method have multiple parameters?,Yes,No,Only two,Only strings,A
+343,Java,Strings,Medium,What gets a character by index?,charAt(),getChar(),character(),at(),A
+344,Java,Arrays,Medium,Which class helps sort arrays?,Arrays,ArrayList,Collections,System,A
+345,Java,Interfaces,Hard,Can interfaces have constructors?,No,Yes,Only private,Only default,A
+346,Java,Methods,Medium,Can a method have zero parameters?,Yes,No,Only static,Only void,A
+347,Python,Loops,Basic,Which keyword exits a loop?,break,continue,exit,stoploop,A
+348,Python,Strings,Basic,"What is ""Python""[0]?",P,y,n,Python,A
+349,Java,Loops,Hard,Can loops be nested?,Yes,No,Only once,Only in methods,A
+350,Python,Strings,Hard,Which method uppercases?,upper(),toUpper(),uppercase(),up(),A
+351,Java,Strings,Medium,Which class is synchronized?,StringBuffer,StringBuilder,String,Character,A
+352,Java,Collections,Medium,Which method removes a List element?,remove(),deleteOnly(),eraseOnly(),dropOnly(),A
+353,Python,OOP,Hard,What does super() provide?,Access to parent behavior,Current object only,Global variables,Modules,A
+354,Java,Loops,Medium,Which loop executes at least once?,do-while,while,for,if,A
+355,Java,Collections,Hard,Which method removes a List element?,remove(),deleteOnly(),eraseOnly(),dropOnly(),A
+356,Java,Arrays,Medium,Default object array values are?,null,0,false,empty,A
+357,Java,Exception Handling,Basic,Which block contains risky code?,try,catch,finally,throw,A
+358,Java,Methods,Medium,Can methods be recursive?,Yes,No,Only constructors,Only interfaces,A
+359,Java,Exception Handling,Medium,What exception occurs for integer division by zero?,ArithmeticException,IOException,NullPointerException,NumberException,A
+360,Java,Arrays,Hard,Can arrays be multidimensional?,Yes,No,Only 2D,Only 3D,A
+361,Java,Methods,Medium,Can methods be overloaded?,Yes,No,Only static,Only final,A
+362,Python,Loops,Medium,Does Python have do-while syntax?,No,Yes,Only Python 2,Only with for,A
+363,Java,Arrays,Hard,What is the first array index?,0,1,-1,10,A
+364,Java,JDBC,Basic,What does JDBC stand for?,Java Database Connectivity,Java Data Base Compiler,Java Data Connection,Java Database Code,A
+365,Java,Strings,Basic,Which class is synchronized?,StringBuffer,StringBuilder,String,Character,A
+366,Java,If Else,Medium,What is the result of 4 >= 4?,true,false,4,error,A
+367,Python,Sets,Medium,Which method removes an arbitrary element?,pop(),remove(),discard(),take(),A
+368,Java,Strings,Hard,Which operator concatenates strings?,+,&,concatOnly,::,A
+369,Java,Interfaces,Hard,Can an interface extend multiple interfaces?,Yes,No,Only one,Only two,A
+370,Python,OOP,Basic,Which method initializes an instance?,__init__,__start__,constructor,initOnly,A
+371,Java,Strings,Medium,What method compares string contents?,equals(),==,compare(),same(),A
+372,Python,Dictionaries,Basic,Which method returns pairs?,items(),pairs(),entriesOnly(),all(),A
+373,Java,Arrays,Hard,Which index is last for length 5?,4,5,3,0,A
+374,Java,Strings,Medium,"What is ""Java"".length()?",4,3,5,0,A
+375,Java,If Else,Basic,Which operator means NOT?,!,&&,||,!=,A
+376,Python,Dictionaries,Hard,What does pop(key) do?,Removes and returns value,Adds key,Sorts keys,Copies dict,A
+377,Java,JDBC,Medium,Which object creates PreparedStatement?,Connection,ResultSet,Driver,Scanner,A
+378,Java,Loops,Medium,Can loops be nested?,Yes,No,Only once,Only in methods,A
+379,Python,Strings,Basic,Which method replaces text?,replace(),change(),substituteOnly(),swap(),A
+380,Python,Functions,Basic,What does *args collect?,Positional arguments,Keyword arguments,Return values,Exceptions,A
+381,Java,OOP,Hard,"Which concept means one interface, many forms?",Polymorphism,Encapsulation,Inheritance,Package,A
+382,Java,Arrays,Hard,What is int[][] a?,2D array reference,String,List,Method,A
+383,Python,Sets,Hard,Can a list be a set element?,No,Yes,Only empty,Only sorted,A
+384,Java,OOP,Hard,What does OOP stand for?,Object-Oriented Programming,Object-Only Program,Open Object Process,Ordered Output Program,A
+385,Java,OOP,Medium,Which concept allows parent-child reuse?,Inheritance,Encapsulation,Overloading,Casting,A
+386,Python,Strings,Medium,Which method lowercases?,lower(),toLower(),lowercase(),down(),A
+387,Python,If Else,Basic,Which keyword starts a condition?,if,for,def,class,A
+388,Java,Arrays,Medium,Which loop can directly iterate array values?,Enhanced for,if,switch,try,A
+389,Python,Exception Handling,Hard,What occurs for int('x')?,ValueError,TypeError,KeyError,IndexError,A
+390,Python,Sets,Medium,What creates an empty set?,set(),{},[],(),A
+391,Java,Strings,Hard,What method returns string length?,length(),size(),count(),length,A
+392,Java,If Else,Hard,Which type stores true or false?,boolean,int,char,double,A
+393,Python,Tuples,Hard,What is tuple unpacking?,Assigning tuple elements to variables,Packing again,Sorting,Deleting,A
+394,Java,Arrays,Basic,Which class helps sort arrays?,Arrays,ArrayList,Collections,System,A
+395,Python,Loops,Hard,Which function creates a number sequence?,range(),sequence(),numbers(),listRange(),A
+396,Java,Loops,Basic,Can loops be nested?,Yes,No,Only once,Only in methods,A
+397,Java,Methods,Basic,What does void mean?,No return value,Returns 0,Returns null,Returns false,A
+398,Java,Methods,Hard,Which keyword makes a method class-level?,static,class,global,shared,A
+399,Python,Sets,Basic,What creates an empty set?,set(),{},[],(),A
+400,Python,Exception Handling,Hard,What does try-else mean?,else runs if no exception,else runs on error,else always runs,else never runs,A
+401,Java,If Else,Medium,Which type stores true or false?,boolean,int,char,double,A
+402,Java,JDBC,Medium,What does JDBC stand for?,Java Database Connectivity,Java Data Base Compiler,Java Data Connection,Java Database Code,A
+403,Python,If Else,Hard,Which operator means AND?,and,or,not,&&,A
+404,Python,If Else,Medium,What is bool(1)?,True,False,1,None,A
+405,Python,Lists,Medium,Are lists mutable?,Yes,No,Only tuples,Only strings,A
+406,Python,Tuples,Hard,Can a hashable tuple be a dictionary key?,Yes,No,Never,Only empty,A
+407,Python,Strings,Medium,Which method checks suffix?,endswith(),ends(),suffix(),finish(),A
+408,Java,Exception Handling,Hard,Which keyword declares exceptions?,throws,throw,catch,try,A
+409,Java,Loops,Basic,Which loop checks its condition before the body?,while,do-while,class,switch,A
+410,Python,If Else,Basic,Which operator means NOT?,not,!,and,no,A
+411,Python,If Else,Basic,Can conditions be nested?,Yes,No,Only loops,Only functions,A
+412,Python,Strings,Medium,"What is ""Python""[0]?",P,y,n,Python,A
+413,Python,Sets,Medium,What does in test on a set?,Membership,Index,Length,Order,A
+414,Java,Collections,Basic,Which interface does HashMap implement?,Map,List,Set,CollectionOnly,A
+415,Python,Functions,Medium,Which keyword defines a function?,def,function,fun,define,A
+416,Python,Dictionaries,Basic,What does in test on a dictionary?,Keys,Values,Both,Items,A
+417,Python,Tuples,Medium,"What is tuple([1,2])?","(1,2)","[1,2]","{1,2}",Error,A
+418,Python,Functions,Medium,What is a docstring?,Documentation string,Error message,Variable,Import,A
+419,Python,If Else,Medium,Which keyword handles the alternative?,else,elif,except,finally,A
+420,Java,Methods,Hard,Can methods accept object references?,Yes,No,Only arrays,Only interfaces,A
+421,Java,If Else,Medium,Which keyword starts a conditional statement?,if,for,class,import,A
+422,Python,Dictionaries,Basic,Can a tuple be a dictionary key?,Yes if hashable,No,Only empty,Only tuple of lists,A
+423,Java,JDBC,Medium,What does autoCommit true mean?,Statements are committed automatically,No statements run,Only SELECT runs,Transactions are disabled,A
+424,Python,Loops,Medium,Which keyword starts a while loop?,while,during,loop,repeat,A
+425,Java,Methods,Medium,Can a method be protected?,Yes,No,Only static,Only final,A
+426,Java,Interfaces,Medium,Which keyword declares an interface?,interface,Interface,implements,abstractOnly,A
+427,Java,Loops,Medium,Can for(;;) create an infinite loop?,Yes,No,Only with if,Only with break,A
+428,Java,Loops,Basic,How many times does while(false) execute?,0,1,2,Infinite,A
+429,Python,Lists,Hard,Which method inserts at a position?,insert(),addAtOnly(),push(),place(),A
+430,Java,Collections,Medium,Which method adds to a List?,add(),put(),insertOnly(),pushOnly(),A
+431,Java,Collections,Hard,Which collection disallows duplicates?,HashSet,ArrayList,LinkedList,Vector,A
+432,Java,Interfaces,Basic,Can interfaces have constructors?,No,Yes,Only private,Only default,A
+433,Java,Interfaces,Basic,Can an interface extend multiple interfaces?,Yes,No,Only one,Only two,A
+434,Java,JDBC,Basic,Which method executes SELECT?,executeQuery(),executeUpdate(),runSelect(),query(),A
+435,Java,Collections,Medium,Can HashMap have a null key?,Yes,No,Only TreeMap,Only if empty,A
+436,Java,If Else,Basic,What is the result of 4 <= 3?,true,false,4,3,B
+437,Java,Strings,Medium,What does isEmpty() check?,Whether length is 0,Whether value is null,Whether spaces exist,Whether uppercase,A
+438,Java,Interfaces,Medium,Which keyword implements an interface?,implements,extends,inherits,uses,A
+439,Python,OOP,Medium,What is method overriding?,Child redefines inherited method,Two methods same class,Function default,Variable assignment,A
+440,Python,Lists,Basic,"What is [1,2,3][1]?",2,1,3,0,A
+441,Java,OOP,Medium,What is a constructor used for?,Initializing objects,Destroying objects,Importing packages,Looping,A
+442,Python,Loops,Medium,What does range(3) produce?,"0,1,2","1,2,3","0,1,2,3",3 only,A
+443,Python,Exception Handling,Medium,Which keyword raises an exception?,raise,throw,throws,error,A
+444,Python,Tuples,Basic,What creates a one-item tuple?,"(5,)",(5),[5],{5},A
+445,Python,If Else,Hard,What is 7 < 2?,True,False,7,2,B
+446,Python,Loops,Medium,"What is range(1,4)?","1,2,3","1,2,3,4","0,1,2",4 only,A
+447,Python,Lists,Medium,"What is len([1,2,3])?",3,2,4,1,A
+448,Java,Strings,Medium,Which operator concatenates strings?,+,&,concatOnly,::,A
+449,Python,Tuples,Basic,"What is tuple([1,2])?","(1,2)","[1,2]","{1,2}",Error,A
+450,Python,Tuples,Medium,What gives tuple length?,len(),length(),size(),countAll(),A
+451,Python,Loops,Hard,Which keyword starts a while loop?,while,during,loop,repeat,A
+452,Python,OOP,Medium,What is polymorphism?,Different implementations of a common operation,Only inheritance,Only functions,Only modules,A
+453,Java,Interfaces,Hard,Can interfaces have static methods?,Yes,No,Only fields,Only constructors,A
+454,Java,Strings,Basic,Which class is mutable for string building?,StringBuilder,String,Integer,Scanner,A
+455,Java,OOP,Hard,Can an abstract class be instantiated directly?,No,Yes,Only with new,Only in main,A
+456,Python,Lists,Hard,Which brackets create a list?,[],{},(),<>,A
+457,Python,OOP,Hard,Which keyword defines a class?,class,Class,define,object,A
+458,Python,Tuples,Medium,Can tuples contain duplicates?,Yes,No,Only two,Only strings,A
+459,Java,Interfaces,Medium,Can default methods have implementation?,Yes,No,Only abstract,Only constructors,A
+460,Java,Methods,Basic,Can methods accept primitive values?,Yes,No,Only objects,Only strings,A
+461,Java,Loops,Medium,Can while execute zero times?,Yes,No,Only with break,Only with continue,A
+462,Java,Arrays,Basic,Default boolean array values are?,false,true,0,null,A
+463,Python,Loops,Hard,How many iterations are in range(5)?,5,4,6,0,A
+464,Python,Exception Handling,Basic,Can except catch a specific type?,Yes,No,Only Exception,Only Error,A
+465,Java,Interfaces,Hard,Interface fields are implicitly?,public static final,private final,protected static,local,A
+466,Java,Arrays,Basic,Can array size change after creation?,No,Yes,Only smaller,Only larger,A
+467,Java,Arrays,Basic,Default object array values are?,null,0,false,empty,A
+468,Java,Methods,Medium,Which keyword returns a value?,return,send,output,give,A
+469,Python,If Else,Medium,What does == compare?,Values,Assignment,Types only,Loops,A
+470,Java,JDBC,Basic,Which method executes INSERT/UPDATE/DELETE?,executeUpdate(),executeQuery(),executeChange(),updateQuery(),A
+471,Java,Methods,Basic,Can a static method directly access an instance field?,No,Yes,Always,Only final,A
+472,Java,Loops,Hard,What does i++ do?,Increases i by 1,Decreases i,Multiplies i,Sets i to 0,A
+473,Python,Strings,Medium,Which operator concatenates strings?,+,&,join,concat,A
+474,Java,Loops,Hard,"Which loop uses initialization, condition and update?",for,while,do-while,if,A
+475,Java,Exception Handling,Hard,Which block generally runs at the end?,finally,catch,try,throw,A
+476,Python,Exception Handling,Hard,Which keyword defines a custom exception class?,class,exception,raise,error,A
+477,Python,Strings,Medium,"What is ""Python""[-1]?",n,P,o,y,A
+478,Python,Strings,Medium,What does find return when absent?,-1,0,None,Error,A
+479,Python,Lists,Basic,Which method removes a value?,remove(),deleteValue(),erase(),drop(),A
+480,Python,Loops,Hard,What does i -= 1 do?,Subtracts 1 from i,Adds 1,Sets i to 0,Doubles i,A
+481,Python,Lists,Basic,What does -1 mean?,Last item,First item,Second item,Length,A
+482,Java,Loops,Hard,What is printed by for(int i=0;i<3;i++) print(i)?,012,123,001,321,A
+483,Java,If Else,Basic,What is the result of 4 >= 4?,true,false,4,error,A
+484,Java,Interfaces,Hard,Can an abstract class implement an interface partially?,Yes,No,Only final,Only static,A
+485,Python,If Else,Medium,Can conditions be nested?,Yes,No,Only loops,Only functions,A
+486,Java,If Else,Hard,Can an if statement exist without else?,Yes,No,Only in loops,Only in methods,A
+487,Java,If Else,Hard,What is the result of 7 < 2?,true,false,7,2,B
+488,Java,Exception Handling,Medium,What is the superclass of Exception and Error?,Throwable,ObjectOnly,ExceptionOnly,ErrorOnly,A
+489,Java,Strings,Medium,Which class represents immutable text?,String,StringBuilder,StringBuffer,Text,A
+490,Java,JDBC,Hard,Which exception is common in JDBC?,SQLException,JDBCException,DatabaseError,SQLRuntime,A
+491,Python,OOP,Medium,Which function checks type?,type(),typeof(),classof(),kind(),A
+492,Python,Loops,Hard,Does Python have do-while syntax?,No,Yes,Only Python 2,Only with for,A
+493,Python,Sets,Basic,Which method removes an arbitrary element?,pop(),remove(),discard(),take(),A
+494,Java,Arrays,Basic,Which declaration creates an integer array?,int[] a,array int a,int a[](),integer a,A
+495,Java,Methods,Medium,Can a static method directly access an instance field?,No,Yes,Always,Only final,A
+496,Java,Strings,Medium,Which method removes leading/trailing spaces?,trim(),removeSpace(),stripOnly(),clean(),A
+497,Java,Methods,Hard,Can a method return an object?,Yes,No,Only int,Only String,A
+498,Java,Methods,Basic,Can a method be protected?,Yes,No,Only static,Only final,A
+499,Python,OOP,Medium,What does self refer to?,Current instance,Parent class,Class only,Module,A
+500,Python,OOP,Medium,Can Python use abstract base classes?,Yes,No,Only Java,Only interfaces,A
+501,Python,Tuples,Medium,Are tuples ordered?,Yes,No,Only empty,Only nested,A
+502,Java,Strings,Medium,Which method checks whether text exists?,contains(),has(),findOnly(),inside(),A
+503,Java,Interfaces,Hard,What does an interface mainly define?,A contract,A database,A loop,A package,A
+504,Python,Strings,Basic,Which method splits a string?,split(),divide(),break(),parts(),A
+505,Python,Sets,Hard,Can a hashable tuple be a set element?,Yes,No,Only one-item,Never,A
+506,Python,Exception Handling,Basic,Can there be multiple except blocks?,Yes,No,Only two,Only one,A
+507,Python,Tuples,Hard,Which brackets create a tuple?,(),[],{},<>,A
+508,Java,Interfaces,Medium,Can default interface methods be overridden?,Yes,No,Only static,Only final,A
+509,Python,Exception Handling,Basic,What occurs for int('x')?,ValueError,TypeError,KeyError,IndexError,A
+510,Python,Sets,Basic,Does a set allow duplicates?,No,Yes,Only strings,Only numbers,A
+511,Java,Collections,Basic,Which method removes a List element?,remove(),deleteOnly(),eraseOnly(),dropOnly(),A
+512,Python,If Else,Hard,Which type stores True or False?,bool,int,str,float,A
+513,Java,Exception Handling,Hard,Which block handles an exception?,catch,try,finally,throws,A
+514,Java,If Else,Basic,Which keyword checks another condition?,else if,else,loop,check,A
+515,Java,Exception Handling,Medium,Can try have multiple catch blocks?,Yes,No,Only two,Only one checked,A
+516,Python,Sets,Basic,Can a list be a set element?,No,Yes,Only empty,Only sorted,A
+517,Java,OOP,Medium,Which keyword defines a class?,class,Class,define,object,A
+518,Java,Strings,Medium,Which method returns part of a string?,substring(),part(),sliceOnly(),sub(),A
+519,Python,Exception Handling,Medium,Can custom exceptions inherit from Exception?,Yes,No,Only BaseException,Only Error,A
+520,Java,If Else,Medium,Which operator means logical OR?,||,&&,!,==,A
+521,Java,Interfaces,Basic,Interface fields are implicitly?,public static final,private final,protected static,local,A
+522,Python,Tuples,Basic,Can tuple elements be accessed by index?,Yes,No,Only strings,Only numbers,A
+523,Python,OOP,Basic,What does super() provide?,Access to parent behavior,Current object only,Global variables,Modules,A
+524,Java,Exception Handling,Hard,Which is an unchecked exception?,ArithmeticException,IOException,SQLException,ClassNotFoundException,A
+525,Java,Methods,Medium,Can the same method name use different parameters?,Yes,No,Only constructors,Only interfaces,A
+526,Python,Loops,Basic,Which keyword starts a while loop?,while,during,loop,repeat,A
+527,Python,Functions,Medium,What does a function without explicit return give?,None,0,False,Empty string,A
+528,Java,OOP,Basic,Which concept allows parent-child reuse?,Inheritance,Encapsulation,Overloading,Casting,A
+529,Python,Lists,Medium,Which method finds an index?,index(),findIndex(),position(),locate(),A
+530,Java,Loops,Hard,What does i-- do?,Decreases i by 1,Increases i,Sets i to 1,Doubles i,A
+531,Python,Loops,Basic,What does i += 1 do?,Adds 1 to i,Subtracts 1,Doubles i,Sets i to 1,A
+532,Java,Loops,Medium,Which loop checks its condition before the body?,while,do-while,class,switch,A
+533,Python,Lists,Medium,Which method removes a value?,remove(),deleteValue(),erase(),drop(),A
+534,Java,Collections,Hard,Which collection is ordered and allows duplicates?,ArrayList,HashSet,TreeSet,HashMap,A
+535,Python,Functions,Hard,What is lambda?,Anonymous function,Loop,Class,Exception,A
+536,Java,Methods,Hard,Which keyword returns a value?,return,send,output,give,A
+537,Java,Strings,Basic,What converts text to uppercase?,toUpperCase(),upper(),uppercase(),makeUpper(),A
+538,Java,Loops,Medium,What does i++ do?,Increases i by 1,Decreases i,Multiplies i,Sets i to 0,A
+539,Python,Dictionaries,Medium,What is an empty dictionary?,{},set(),[],None,A
+540,Java,Methods,Hard,Can methods accept primitive values?,Yes,No,Only objects,Only strings,A
+541,Java,Strings,Hard,What converts text to lowercase?,toLowerCase(),lower(),lowercase(),makeLower(),A
+542,Java,Collections,Medium,Which list is linked?,LinkedList,HashSet,TreeSet,HashMap,A
+543,Java,OOP,Hard,Which concept hides internal data?,Encapsulation,Inheritance,Polymorphism,Compilation,A
+544,Java,JDBC,Hard,Which interface executes SQL?,Statement,Connection,ResultSet,Driver,A
+545,Java,Arrays,Medium,Which declaration creates an integer array?,int[] a,array int a,int a[](),integer a,A
+546,Python,Strings,Hard,Which method checks suffix?,endswith(),ends(),suffix(),finish(),A
+547,Python,If Else,Basic,What defines Python code blocks?,Indentation,Comments,Variables,Imports,A
+548,Python,Functions,Medium,Can functions be stored in variables?,Yes,No,Only built-ins,Only methods,A
+549,Python,Loops,Hard,Can while execute zero times?,Yes,No,Only with break,Only continue,A
+550,Java,Arrays,Medium,Which method sorts an array?,Arrays.sort(),Arrays.order(),Array.sort(),sort.array(),A
+551,Java,Arrays,Basic,What is the length of new int[10]?,10,9,11,0,A
+552,Java,JDBC,Medium,Which method executes SELECT?,executeQuery(),executeUpdate(),runSelect(),query(),A
+553,Python,Tuples,Hard,Can tuple contain a list?,Yes,No,Only strings,Only numbers,A
+554,Java,Loops,Basic,Can while execute zero times?,Yes,No,Only with break,Only with continue,A
+555,Python,OOP,Basic,Can classes have instance variables?,Yes,No,Only methods,Only strings,A
+556,Python,Strings,Basic,Which method joins strings?,join(),concatList(),merge(),combine(),A
+557,Java,Interfaces,Medium,Can a class implement multiple interfaces?,Yes,No,Only two,Only one,A
+558,Java,Collections,Medium,Which collection disallows duplicates?,HashSet,ArrayList,LinkedList,Vector,A
+559,Java,If Else,Hard,What is the result of 4 <= 3?,true,false,4,3,B
+560,Java,Exception Handling,Hard,What does getMessage() return?,Exception message,Exception class only,Stack memory,Line number only,A
+561,Java,Strings,Hard,Which method removes leading/trailing spaces?,trim(),removeSpace(),stripOnly(),clean(),A
+562,Python,Exception Handling,Hard,What does raise ValueError() do?,Raises ValueError,Returns value,Catches error,Ignores error,A
+563,Python,Functions,Hard,Which keyword defines a function?,def,function,fun,define,A
+564,Python,Dictionaries,Hard,Which method updates a dictionary?,update(),addOnly(),insertKey(),put(),A
+565,Java,Collections,Basic,Which interface does ArrayList implement?,List,Set,Map,QueueOnly,A
+566,Java,Methods,Hard,Can a static method directly access an instance field?,No,Yes,Always,Only final,A
+567,Python,Tuples,Medium,Which method counts tuple values?,count(),frequency(),number(),occurs(),A
+568,Java,Exception Handling,Basic,Which keyword declares exceptions?,throws,throw,catch,try,A
+569,Java,Exception Handling,Hard,Can try have multiple catch blocks?,Yes,No,Only two,Only one checked,A
+570,Python,Exception Handling,Basic,Can custom exceptions inherit from Exception?,Yes,No,Only BaseException,Only Error,A
+571,Java,Arrays,Hard,Which loop can directly iterate array values?,Enhanced for,if,switch,try,A
+572,Java,Arrays,Medium,What happens for an invalid index?,ArrayIndexOutOfBoundsException,NullPointerException,IOException,SyntaxError,A
+573,Python,Sets,Hard,Are sets mutable?,Yes,No,Only frozenset,Only empty,A
+574,Java,Loops,Basic,Which loop is commonly used when iterations are known?,for,if,switch,class,A
+575,Java,Interfaces,Basic,Can an interface extend another interface?,Yes,No,Only classes,Only abstract classes,A
+576,Python,Strings,Medium,Which method replaces text?,replace(),change(),substituteOnly(),swap(),A
+577,Java,Arrays,Hard,Which class helps sort arrays?,Arrays,ArrayList,Collections,System,A
+578,Java,JDBC,Medium,Which interface executes SQL?,Statement,Connection,ResultSet,Driver,A
+579,Java,Interfaces,Hard,Which keyword is used for interface inheritance?,extends,implements,inherits,uses,A
+580,Python,Lists,Medium,Which method sorts in place?,sort(),sortedList(),order(),arrange(),A
+581,Java,Exception Handling,Medium,Which keyword explicitly throws an exception?,throw,throws,error,raise,A
+582,Java,If Else,Medium,Which block runs when an if condition is false?,else,for,try,finally,A
+583,Python,Functions,Basic,Can functions be passed as arguments?,Yes,No,Only classes,Only strings,A
+584,Python,Sets,Hard,Which method removes an arbitrary element?,pop(),remove(),discard(),take(),A
+585,Python,Functions,Basic,Can functions be stored in variables?,Yes,No,Only built-ins,Only methods,A
+586,Java,Methods,Basic,Can methods be recursive?,Yes,No,Only constructors,Only interfaces,A
+587,Python,If Else,Hard,What is 5 > 3?,True,False,5,3,A
+588,Python,Lists,Medium,Which method adds at the end?,append(),add(),push(),put(),A
+589,Java,If Else,Hard,Which operator means logical AND?,&&,||,!,&|,A
+590,Java,Strings,Medium,Can String objects be changed after creation?,No,Yes,Only with final,Only in loops,A
+591,Java,OOP,Hard,Can methods be overridden?,Yes,No,Only static,Only private,A
+592,Python,Functions,Medium,Which keyword creates lambda?,lambda,anon,function,defonly,A
+593,Python,Tuples,Medium,Which brackets create a tuple?,(),[],{},<>,A
+594,Python,Sets,Basic,Which method removes and errors if absent?,remove(),discard(),delete(),erase(),A
+595,Python,OOP,Basic,Can Python support multiple inheritance?,Yes,No,Only two classes,Only interfaces,A
+596,Java,Strings,Basic,What converts text to lowercase?,toLowerCase(),lower(),lowercase(),makeLower(),A
+597,Java,Collections,Hard,Which collection stores sorted unique elements?,TreeSet,HashSet,ArrayList,HashMap,A
+598,Python,Lists,Basic,Can lists contain duplicates?,Yes,No,Only strings,Only numbers,A
+599,Python,Loops,Medium,Which keyword exits a loop?,break,continue,exit,stoploop,A
+600,Python,Dictionaries,Hard,What is {'a':1}['a']?,1,a,0,Error,A
+601,Java,If Else,Medium,What is the result of 5 > 3?,true,false,5,3,A
+602,Java,Arrays,Medium,Can arrays be multidimensional?,Yes,No,Only 2D,Only 3D,A
+603,Java,Exception Handling,Medium,Which is a checked exception?,IOException,ArithmeticException,NullPointerException,ArrayIndexOutOfBoundsException,A
+604,Java,Collections,Basic,Which method adds to a List?,add(),put(),insertOnly(),pushOnly(),A
+605,Python,Tuples,Basic,Which method finds tuple index?,index(),find(),position(),locate(),A
+606,Python,Exception Handling,Basic,What is finally useful for?,Cleanup,Looping,Sorting,Inheritance,A
+607,Java,Strings,Hard,"What is ""Java"".length()?",4,3,5,0,A
+608,Java,Arrays,Basic,Which loop can directly iterate array values?,Enhanced for,if,switch,try,A
+609,Python,Lists,Basic,"What is len([1,2,3])?",3,2,4,1,A
+610,Python,Lists,Basic,Which method removes and returns the last item?,pop(),removeLastOnly(),delete(),pull(),A
+611,Java,Strings,Medium,Which class is mutable for string building?,StringBuilder,String,Integer,Scanner,A
+612,Java,Exception Handling,Basic,Which block handles an exception?,catch,try,finally,throws,A
+613,Python,Sets,Basic,Can a hashable tuple be a set element?,Yes,No,Only one-item,Never,A
+614,Python,Dictionaries,Basic,What does clear() do?,Removes all items,Deletes variable,Sorts,Copies,A
+615,Python,Dictionaries,Medium,Can dictionary keys be duplicated?,No,Yes,Only strings,Only integers,A
+616,Python,Tuples,Hard,Are tuples mutable?,No,Yes,Only numbers,Only strings,A
+617,Python,Exception Handling,Medium,What base class catches most ordinary exceptions?,Exception,Error,BaseError,Throwable,A
+618,Python,If Else,Medium,Which keyword starts a condition?,if,for,def,class,A
+619,Python,Exception Handling,Hard,Which block contains risky code?,try,catch,except,finally,A
+620,Java,If Else,Hard,What is the result of 4 >= 4?,true,false,4,error,A
+621,Python,Strings,Basic,Which method checks suffix?,endswith(),ends(),suffix(),finish(),A
+622,Java,Strings,Basic,"What is ""Java"".charAt(0)?",J,a,v,Java,A
+623,Python,OOP,Basic,Which keyword defines a class?,class,Class,define,object,A
+624,Java,Strings,Medium,What converts text to lowercase?,toLowerCase(),lower(),lowercase(),makeLower(),A
+625,Java,If Else,Basic,Which symbol starts a Java code block?,{,[,(,<,A
+626,Python,If Else,Basic,What is 7 < 2?,True,False,7,2,B
+627,Java,If Else,Hard,Can conditions be nested in Java?,Yes,No,Only in loops,Only in arrays,A
+628,Python,Exception Handling,Medium,Which keyword defines a custom exception class?,class,exception,raise,error,A
+629,Python,Strings,Hard,Which method lowercases?,lower(),toLower(),lowercase(),down(),A
+630,Python,If Else,Basic,What is bool('')?,False,True,'',Error,A
+631,Python,Exception Handling,Basic,Which block runs for cleanup?,finally,except,else,always,A
+632,Java,JDBC,Medium,Which exception is common in JDBC?,SQLException,JDBCException,DatabaseError,SQLRuntime,A
+633,Java,Collections,Medium,Which map sorts keys?,TreeMap,HashMap,LinkedHashMap,ArrayList,A
+634,Python,Dictionaries,Medium,Which method gets a value?,get(),fetchOnly(),value(),read(),A
+635,Python,OOP,Medium,Which function checks instance?,isinstance(),instanceOf(),checkInstance(),typeIs(),A
+636,Java,OOP,Medium,Which keyword refers to current object?,this,self,current,object,A
+637,Java,If Else,Medium,Can an if statement exist without else?,Yes,No,Only in loops,Only in methods,A
+638,Python,Exception Handling,Basic,Which keyword defines a custom exception class?,class,exception,raise,error,A
+639,Java,Methods,Hard,Can a method have zero parameters?,Yes,No,Only static,Only void,A
+640,Python,Exception Handling,Basic,Which keyword handles exceptions?,except,catch,handle,error,A
+641,Java,Interfaces,Basic,What relationship does implements represent?,Class-to-interface,Class-to-class,Interface-to-package,Object-to-method,A
+642,Java,OOP,Medium,Which modifier is most restrictive?,private,public,protected,default,A
+643,Java,If Else,Hard,What is the result of 10 == 10?,true,false,10,error,A
+644,Python,Exception Handling,Basic,What does raise ValueError() do?,Raises ValueError,Returns value,Catches error,Ignores error,A
+645,Java,Interfaces,Medium,Interface abstract methods are implicitly?,public abstract,private,protected,static only,A
+646,Java,JDBC,Medium,Which interface represents a database connection?,Connection,Driver,Statement,Database,A
+647,Python,Exception Handling,Medium,Which block contains risky code?,try,catch,except,finally,A
+648,Python,OOP,Basic,What does OOP stand for?,Object-Oriented Programming,Object Output Process,Open Object Program,Ordered Object Processing,A
+649,Python,Dictionaries,Basic,Which method returns values?,values(),getValuesOnly(),valueList(),allValues(),A
+650,Python,Functions,Hard,Can functions return multiple values?,Yes,No,Only list,Only string,A
+651,Java,Strings,Hard,Which method checks whether text exists?,contains(),has(),findOnly(),inside(),A
+652,Python,OOP,Basic,Which concept hides implementation details?,Abstraction,Iteration,Import,Compilation,A
+653,Python,OOP,Basic,What is method overriding?,Child redefines inherited method,Two methods same class,Function default,Variable assignment,A
+654,Python,If Else,Basic,What is 5 > 3?,True,False,5,3,A
+655,Python,Exception Handling,Medium,Which block runs for cleanup?,finally,except,else,always,A
+656,Python,Functions,Medium,What does *args collect?,Positional arguments,Keyword arguments,Return values,Exceptions,A
+657,Python,Loops,Medium,What does continue do?,Skips current iteration,Ends loop,Returns value,Raises exception,A
+658,Python,Exception Handling,Medium,Which keyword handles exceptions?,except,catch,handle,error,A
+659,Java,Strings,Basic,Which method returns part of a string?,substring(),part(),sliceOnly(),sub(),A
+660,Python,Strings,Basic,Which method checks prefix?,startswith(),starts(),prefix(),begin(),A
+661,Java,Strings,Basic,What method compares string contents?,equals(),==,compare(),same(),A
+662,Python,Functions,Basic,Which keyword returns a value?,return,give,yieldOnly,output,A
+663,Python,Exception Handling,Hard,What occurs for incompatible operand types?,TypeError,ValueError,KeyError,IndexError,A
+664,Python,Sets,Basic,Which method removes without error if absent?,discard(),remove(),delete(),drop(),A
+665,Java,Arrays,Basic,What is int[][] a?,2D array reference,String,List,Method,A
+666,Java,OOP,Medium,Which keyword refers to parent members?,super,parent,base,this,A
+667,Python,Tuples,Hard,What is the first tuple index?,0,1,-1,Depends,A
+668,Java,Arrays,Basic,Can arrays store primitive values?,Yes,No,Only int,Only char,A
+669,Java,Methods,Medium,Can a method have multiple parameters?,Yes,No,Only two,Only strings,A
+670,Java,Methods,Medium,What is a parameter?,Input variable in a method,Returned value,Class,Exception,A
+671,Python,Sets,Basic,Which structure removes duplicates?,set,list,tuple,string,A
+672,Python,Loops,Hard,Which keyword exits a loop?,break,continue,exit,stoploop,A
+673,Python,Sets,Medium,Which operator means symmetric difference?,^,&,|,-,A
+674,Python,Tuples,Medium,"What is (1,2,3)[1]?",2,1,3,0,A
+675,Java,Arrays,Medium,Which property gives array length?,length,size(),count(),capacity(),A
+676,Java,Loops,Basic,Which keyword skips the current iteration?,continue,break,return,skip,A
+677,Java,Strings,Basic,What method returns string length?,length(),size(),count(),length,A
+678,Java,Methods,Basic,Can a method have zero parameters?,Yes,No,Only static,Only void,A
+679,Python,Strings,Hard,Which method splits a string?,split(),divide(),break(),parts(),A
+680,Java,OOP,Basic,Can a constructor have a return type?,No,Yes,Only void,Only int,A
+681,Python,Tuples,Basic,Which method counts tuple values?,count(),frequency(),number(),occurs(),A
+682,Python,Functions,Hard,Can functions be passed as arguments?,Yes,No,Only classes,Only strings,A
+683,Python,Sets,Basic,Which operator means difference?,-,|,&,^,A
+684,Java,If Else,Basic,What is the result of 7 < 2?,true,false,7,2,B
+685,Python,Functions,Basic,Can functions return multiple values?,Yes,No,Only list,Only string,A
+686,Java,If Else,Hard,Which block runs when an if condition is false?,else,for,try,finally,A
+687,Java,JDBC,Basic,Which interface represents a database connection?,Connection,Driver,Statement,Database,A
+688,Python,Tuples,Basic,Are tuples mutable?,No,Yes,Only numbers,Only strings,A
+689,Java,Collections,Basic,Which collection stores sorted unique elements?,TreeSet,HashSet,ArrayList,HashMap,A
+690,Java,Exception Handling,Basic,Which keyword explicitly throws an exception?,throw,throws,error,raise,A
+691,Python,Dictionaries,Hard,What does clear() do?,Removes all items,Deletes variable,Sorts,Copies,A
+692,Python,Loops,Medium,Which function creates a number sequence?,range(),sequence(),numbers(),listRange(),A
+693,Python,Lists,Medium,Which method removes and returns the last item?,pop(),removeLastOnly(),delete(),pull(),A
+694,Python,Dictionaries,Medium,Can a tuple be a dictionary key?,Yes if hashable,No,Only empty,Only tuple of lists,A
+695,Python,OOP,Hard,What is encapsulation?,Bundling data and behavior with controlled access,Only inheritance,Only functions,Only modules,A
+696,Java,Collections,Basic,Does HashSet allow duplicates?,No,Yes,Only strings,Only integers,A
+697,Python,Lists,Basic,What is the first list index?,0,1,-1,Depends,A
+698,Java,Collections,Hard,Which interface does ArrayList implement?,List,Set,Map,QueueOnly,A
+699,Java,Methods,Basic,Can the same method name use different parameters?,Yes,No,Only constructors,Only interfaces,A
+700,Java,Strings,Basic,Which class represents immutable text?,String,StringBuilder,StringBuffer,Text,A
+701,Python,Sets,Hard,Which method removes and errors if absent?,remove(),discard(),delete(),erase(),A
+702,Python,Lists,Hard,Which method removes and returns the last item?,pop(),removeLastOnly(),delete(),pull(),A
+703,Python,OOP,Hard,Which concept enables child classes to reuse behavior?,Inheritance,Parsing,Indexing,Exception,A
+704,Python,Loops,Basic,Which keyword starts a for loop?,for,loop,repeat,iterate,A
+705,Python,OOP,Hard,Which method initializes an instance?,__init__,__start__,constructor,initOnly,A
+706,Java,JDBC,Hard,Which interface supports parameterized SQL?,PreparedStatement,Statement,ResultSet,Driver,A
+707,Java,Arrays,Hard,Default boolean array values are?,false,true,0,null,A
+708,Java,Arrays,Hard,Default int array values are?,0,1,null,false,A
+709,Python,Dictionaries,Medium,Which method returns keys?,keys(),getKeysOnly(),keyList(),allKeysOnly(),A
+710,Python,Strings,Medium,What does in test for strings?,Substring membership,Index only,Length,Type,A
+711,Python,Dictionaries,Hard,Which method returns pairs?,items(),pairs(),entriesOnly(),all(),A
+712,Python,Tuples,Basic,Can tuple contain a list?,Yes,No,Only strings,Only numbers,A
+713,Java,Exception Handling,Hard,Can catch handle a parent exception type?,Yes,No,Only Error,Only IOException,A
+714,Java,JDBC,Basic,Which exception is common in JDBC?,SQLException,JDBCException,DatabaseError,SQLRuntime,A
+715,Java,Exception Handling,Medium,Can finally exist without catch?,Yes,No,Only with throw,Only in loops,A
+716,Java,Strings,Hard,What method compares string contents?,equals(),==,compare(),same(),A
+717,Java,Arrays,Medium,Which index is last for length 5?,4,5,3,0,A
+718,Python,OOP,Basic,What does self refer to?,Current instance,Parent class,Class only,Module,A
+719,Python,Lists,Basic,Which method sorts in place?,sort(),sortedList(),order(),arrange(),A
+720,Java,Arrays,Hard,Which method sorts an array?,Arrays.sort(),Arrays.order(),Array.sort(),sort.array(),A
+721,Python,Exception Handling,Basic,What occurs for invalid list index?,IndexError,KeyError,ValueError,TypeError,A
+722,Java,Strings,Hard,Which class is mutable for string building?,StringBuilder,String,Integer,Scanner,A
+723,Python,Lists,Basic,Which function returns sorted result?,sorted(),sort(),order(),arrange(),A
+724,Java,Collections,Medium,Does HashSet allow duplicates?,No,Yes,Only strings,Only integers,A
+725,Java,Collections,Hard,Which Map method adds a key-value pair?,put(),add(),setOnly(),insert(),A
+726,Java,Methods,Basic,Which keyword returns a value?,return,send,output,give,A
+727,Java,Arrays,Medium,"What is int[] a={1,2,3}; a[1]?",2,1,3,0,A
+728,Java,Strings,Medium,What does startsWith() check?,Prefix,Suffix,Length,Case,A
+729,Java,OOP,Basic,Which concept hides internal data?,Encapsulation,Inheritance,Polymorphism,Compilation,A
+730,Java,Methods,Hard,Can a method have multiple parameters?,Yes,No,Only two,Only strings,A
+731,Java,OOP,Hard,Which modifier is most restrictive?,private,public,protected,default,A
+732,Java,Methods,Basic,Can a method be private?,Yes,No,Only abstract,Only interface,A
+733,Python,Strings,Medium,"What does ""abc"".find(""b"") return?",1,0,2,-1,A
+734,Python,Sets,Basic,Are sets indexed?,No,Yes,Only sorted,Only one-item,A
+735,Python,Strings,Basic,Which method lowercases?,lower(),toLower(),lowercase(),down(),A
+736,Python,Functions,Hard,Which keyword returns a value?,return,give,yieldOnly,output,A
+737,Python,OOP,Hard,What does self refer to?,Current instance,Parent class,Class only,Module,A
+738,Java,Arrays,Medium,Default int array values are?,0,1,null,false,A
+739,Python,Lists,Hard,Which method adds at the end?,append(),add(),push(),put(),A
+740,Java,Methods,Basic,What is a parameter?,Input variable in a method,Returned value,Class,Exception,A
+741,Python,Sets,Hard,Which structure removes duplicates?,set,list,tuple,string,A
+742,Python,Sets,Medium,Which method adds an element?,add(),append(),push(),insert(),A
+743,Python,Dictionaries,Hard,Which method gets a value?,get(),fetchOnly(),value(),read(),A
+744,Python,Strings,Basic,Which operator concatenates strings?,+,&,join,concat,A
+745,Java,OOP,Medium,Which concept hides internal data?,Encapsulation,Inheritance,Polymorphism,Compilation,A
+746,Python,Lists,Hard,What gives list length?,len(),length(),size(),countAll(),A
+747,Python,Strings,Basic,"What does ""abc"".find(""b"") return?",1,0,2,-1,A
+748,Python,Sets,Basic,Are sets mutable?,Yes,No,Only frozenset,Only empty,A
+749,Python,Functions,Basic,What does len() return?,Length,Type,Index,Memory address,A
+750,Python,Strings,Medium,What gives string length?,len(),length(),size(),count(),A
+751,Python,Lists,Medium,What gives list length?,len(),length(),size(),countAll(),A
+752,Python,OOP,Medium,What is encapsulation?,Bundling data and behavior with controlled access,Only inheritance,Only functions,Only modules,A
+753,Python,Sets,Basic,Which operator means union?,|,&,-,^,A
+754,Java,Interfaces,Hard,Can a class implement multiple interfaces?,Yes,No,Only two,Only one,A
+755,Python,Exception Handling,Medium,What occurs for division by zero?,ZeroDivisionError,ArithmeticErrorOnly,ValueError,TypeError,A
+756,Python,If Else,Basic,Which operator assigns a value?,=,==,:=,=>,A
+757,Java,Collections,Medium,Which collection is ordered and allows duplicates?,ArrayList,HashSet,TreeSet,HashMap,A
+758,Python,Functions,Medium,Can functions have default parameters?,Yes,No,Only one,Only strings,A
+759,Java,Methods,Hard,Can methods be recursive?,Yes,No,Only constructors,Only interfaces,A
+760,Java,JDBC,Hard,Which method closes a JDBC resource?,close(),end(),disconnect(),stop(),A
+761,Java,Arrays,Basic,Default int array values are?,0,1,null,false,A
+762,Python,Tuples,Hard,Which method finds tuple index?,index(),find(),position(),locate(),A
+763,Java,OOP,Medium,Can an interface be instantiated directly?,No,Yes,Only static,Only final,A
+764,Python,OOP,Medium,Which method initializes an instance?,__init__,__start__,constructor,initOnly,A
+765,Python,Lists,Basic,What gives list length?,len(),length(),size(),countAll(),A
+766,Python,Tuples,Medium,What is the first tuple index?,0,1,-1,Depends,A
+767,Java,Interfaces,Medium,Interface fields are implicitly?,public static final,private final,protected static,local,A
+768,Python,Exception Handling,Medium,What is finally useful for?,Cleanup,Looping,Sorting,Inheritance,A
+769,Python,Functions,Hard,Can functions be stored in variables?,Yes,No,Only built-ins,Only methods,A
+770,Java,OOP,Medium,Which keyword prevents class inheritance?,final,static,private,const,A
+771,Python,Sets,Hard,Does a set allow duplicates?,No,Yes,Only strings,Only numbers,A
+772,Python,Tuples,Medium,Can tuple contain a list?,Yes,No,Only strings,Only numbers,A
+773,Java,Exception Handling,Medium,Which block contains risky code?,try,catch,finally,throw,A
+774,Python,Lists,Hard,Can lists contain mixed types?,Yes,No,Only strings,Only numbers,A
+775,Java,Methods,Basic,Can a method return an object?,Yes,No,Only int,Only String,A
+776,Python,OOP,Hard,What is method overriding?,Child redefines inherited method,Two methods same class,Function default,Variable assignment,A
+777,Python,Dictionaries,Basic,What is {'a':1}['a']?,1,a,0,Error,A
+778,Java,Interfaces,Basic,Can default methods have implementation?,Yes,No,Only abstract,Only constructors,A
+779,Java,Collections,Basic,Which method returns collection size?,size(),length,count(),capacity(),A
+780,Python,Dictionaries,Hard,What does in test on a dictionary?,Keys,Values,Both,Items,A
+781,Python,Lists,Medium,What is the first list index?,0,1,-1,Depends,A
+782,Python,Lists,Medium,"What is [1,2,3][1]?",2,1,3,0,A
+783,Java,Collections,Medium,Which map preserves insertion order?,LinkedHashMap,HashMap,TreeMap,Hashtable,A
+784,Java,Interfaces,Medium,Can interfaces have static methods?,Yes,No,Only fields,Only constructors,A
+785,Java,Interfaces,Hard,Which keyword declares an interface?,interface,Interface,implements,abstractOnly,A
+786,Java,OOP,Medium,Can a constructor have a return type?,No,Yes,Only void,Only int,A
+787,Python,Exception Handling,Basic,Which keyword raises an exception?,raise,throw,throws,error,A
+788,Python,Functions,Basic,What does **kwargs collect?,Keyword arguments,Positional arguments,Lists,Tuples only,A
+789,Java,JDBC,Medium,Which interface stores query results?,ResultSet,Connection,Statement,Driver,A
+790,Java,Exception Handling,Hard,Which class represents serious JVM problems?,Error,Exception,RuntimeException,IOException,A
+791,Python,If Else,Basic,Which operator means AND?,and,or,not,&&,A
+792,Python,Lists,Hard,Which method removes a value?,remove(),deleteValue(),erase(),drop(),A
+793,Python,Exception Handling,Hard,Which keyword raises an exception?,raise,throw,throws,error,A
+794,Python,Strings,Medium,Which method splits a string?,split(),divide(),break(),parts(),A
+795,Python,Strings,Basic,Which method uppercases?,upper(),toUpper(),uppercase(),up(),A
+796,Python,Lists,Medium,Can lists contain duplicates?,Yes,No,Only strings,Only numbers,A
+797,Python,OOP,Basic,Which concept enables child classes to reuse behavior?,Inheritance,Parsing,Indexing,Exception,A
+798,Python,Functions,Basic,Can functions have multiple parameters?,Yes,No,Only two,Only defaults,A
+799,Python,Lists,Hard,What does -1 mean?,Last item,First item,Second item,Length,A
+800,Python,Functions,Hard,What is recursion?,Function calling itself,Function overloading,Function importing,Function sorting,A
+801,Python,Loops,Basic,Can loops be nested?,Yes,No,Only for,Only while,A
+802,Python,Exception Handling,Basic,What occurs for missing dictionary key?,KeyError,ValueError,IndexError,NameError,A
+803,Python,Loops,Medium,Can for iterate over a list?,Yes,No,Only numbers,Only strings,A
+804,Python,Sets,Hard,Which operator means intersection?,&,|,-,^,A
+805,Java,Loops,Hard,Which loop checks its condition before the body?,while,do-while,class,switch,A
+806,Java,OOP,Hard,Which keyword refers to current object?,this,self,current,object,A
+807,Python,Tuples,Hard,What is ()?,Empty tuple,Empty list,Empty set,None,A
+808,Java,Strings,Basic,Which operator concatenates strings?,+,&,concatOnly,::,A
+809,Python,If Else,Medium,Which operator means NOT?,not,!,and,no,A
+810,Java,If Else,Hard,Which keyword starts a conditional statement?,if,for,class,import,A
+811,Python,If Else,Hard,Which operator means OR?,or,and,not,||,A
+812,Java,Strings,Medium,What converts text to uppercase?,toUpperCase(),upper(),uppercase(),makeUpper(),A
+813,Python,Tuples,Basic,What is the first tuple index?,0,1,-1,Depends,A
+814,Python,OOP,Hard,What is polymorphism?,Different implementations of a common operation,Only inheritance,Only functions,Only modules,A
+815,Python,OOP,Basic,What is encapsulation?,Bundling data and behavior with controlled access,Only inheritance,Only functions,Only modules,A
+816,Python,Functions,Hard,What does *args collect?,Positional arguments,Keyword arguments,Return values,Exceptions,A
+817,Python,Strings,Hard,Which method replaces text?,replace(),change(),substituteOnly(),swap(),A
+818,Python,Dictionaries,Medium,Can a list be a dictionary key?,No,Yes,Only empty,Only sorted,A
+819,Java,Loops,Hard,How many times does while(false) execute?,0,1,2,Infinite,A
+820,Python,Loops,Basic,Does Python have do-while syntax?,No,Yes,Only Python 2,Only with for,A
+821,Java,OOP,Hard,What is a constructor used for?,Initializing objects,Destroying objects,Importing packages,Looping,A
+822,Python,Dictionaries,Hard,Must keys be hashable?,Yes,No,Only lists,Only dicts,A
+823,Python,Loops,Medium,Can while execute zero times?,Yes,No,Only with break,Only continue,A
+824,Python,Tuples,Hard,What gives tuple length?,len(),length(),size(),countAll(),A
+825,Java,JDBC,Basic,Which method gets a string column?,getString(),readString(),stringValue(),fetchString(),A
+826,Python,Loops,Basic,Which keyword skips an iteration?,continue,break,nextloop,skip,A
+827,Python,OOP,Hard,Which concept hides implementation details?,Abstraction,Iteration,Import,Compilation,A
+828,Java,OOP,Basic,What is a constructor used for?,Initializing objects,Destroying objects,Importing packages,Looping,A
+829,Java,Interfaces,Hard,Can default methods have implementation?,Yes,No,Only abstract,Only constructors,A
+830,Python,Sets,Hard,Which operator means union?,|,&,-,^,A
+831,Java,Interfaces,Hard,Can a class extend one class and implement interfaces?,Yes,No,Only interfaces,Only two classes,A
+832,Python,Sets,Basic,"What is {1,2,2,3}?","{1,2,3}","{1,2,2,3}","[1,2,3]",Error,A
+833,Python,Functions,Hard,What does **kwargs collect?,Keyword arguments,Positional arguments,Lists,Tuples only,A
+834,Java,OOP,Medium,What does OOP stand for?,Object-Oriented Programming,Object-Only Program,Open Object Process,Ordered Output Program,A
+835,Java,If Else,Basic,Which operator means logical AND?,&&,||,!,&|,A
+836,Python,Sets,Medium,Does a set allow duplicates?,No,Yes,Only strings,Only numbers,A
+837,Python,Lists,Hard,Which method sorts in place?,sort(),sortedList(),order(),arrange(),A
+838,Python,Strings,Medium,Which method joins strings?,join(),concatList(),merge(),combine(),A
+839,Python,Lists,Basic,Which method counts occurrences?,count(),frequency(),occurs(),number(),A
+840,Python,Dictionaries,Hard,Which method returns values?,values(),getValuesOnly(),valueList(),allValues(),A
+841,Python,If Else,Hard,What defines Python code blocks?,Indentation,Comments,Variables,Imports,A
+842,Python,Dictionaries,Medium,Must keys be hashable?,Yes,No,Only lists,Only dicts,A
+843,Python,Tuples,Medium,Can tuple elements be accessed by index?,Yes,No,Only strings,Only numbers,A
+844,Java,Loops,Hard,Can a loop contain another loop?,Yes,No,Only while,Only for,A
+845,Python,Functions,Basic,What is a parameter?,Variable in function definition,Returned value,Module,Class,A
+846,Python,Dictionaries,Medium,What does in test on a dictionary?,Keys,Values,Both,Items,A
+847,Python,Loops,Medium,Can loops be nested?,Yes,No,Only for,Only while,A
+848,Java,Methods,Basic,Can methods be overloaded?,Yes,No,Only static,Only final,A
+849,Python,If Else,Basic,Which keyword checks another condition?,elif,elseif,else if,check,A
+850,Java,If Else,Hard,Which operator checks equality?,==,=,=>,equals,A
+851,Java,If Else,Medium,Which keyword checks another condition?,else if,else,loop,check,A
+852,Python,Sets,Medium,Which operator means difference?,-,|,&,^,A
+853,Python,Functions,Hard,What is an argument?,Value passed to a function,Function name,Return type,Module,A
+854,Java,OOP,Basic,What does OOP stand for?,Object-Oriented Programming,Object-Only Program,Open Object Process,Ordered Output Program,A
+855,Java,Arrays,Hard,Which declaration creates an integer array?,int[] a,array int a,int a[](),integer a,A
+856,Java,If Else,Medium,Which operator checks not equal?,!=,==,=,<>,A
+857,Python,OOP,Medium,Can classes have instance variables?,Yes,No,Only methods,Only strings,A
+858,Java,OOP,Medium,Which modifier allows access from anywhere?,public,private,protected,default,A
+859,Java,JDBC,Hard,Which interface stores query results?,ResultSet,Connection,Statement,Driver,A
+860,Python,Sets,Medium,Which method removes without error if absent?,discard(),remove(),delete(),drop(),A
+861,Java,Interfaces,Medium,What does an interface mainly define?,A contract,A database,A loop,A package,A
+862,Java,Collections,Hard,Which list is linked?,LinkedList,HashSet,TreeSet,HashMap,A
+863,Java,Methods,Medium,What defines a method's output type?,Return type,Parameter,Class name,Package,A
+864,Python,Tuples,Medium,Which method finds tuple index?,index(),find(),position(),locate(),A
+865,Java,Interfaces,Hard,Interface abstract methods are implicitly?,public abstract,private,protected,static only,A
+866,Python,Loops,Hard,What does i += 1 do?,Adds 1 to i,Subtracts 1,Doubles i,Sets i to 1,A
+867,Java,JDBC,Hard,What does commit() do?,Makes transaction changes permanent,Starts query,Closes database,Deletes rows,A
+868,Java,Arrays,Hard,Can array size change after creation?,No,Yes,Only smaller,Only larger,A
+869,Java,Loops,Basic,Which statement stops a loop early?,break,continue,if,import,A
+870,Java,JDBC,Medium,Which interface supports parameterized SQL?,PreparedStatement,Statement,ResultSet,Driver,A
+871,Python,Lists,Hard,Which method finds an index?,index(),findIndex(),position(),locate(),A
+872,Java,Arrays,Medium,What is int[][] a?,2D array reference,String,List,Method,A
+873,Python,Exception Handling,Medium,What occurs for incompatible operand types?,TypeError,ValueError,KeyError,IndexError,A
+874,Python,If Else,Medium,What is 5 > 3?,True,False,5,3,A
+875,Python,Functions,Hard,What is a parameter?,Variable in function definition,Returned value,Module,Class,A
+876,Python,Exception Handling,Basic,What base class catches most ordinary exceptions?,Exception,Error,BaseError,Throwable,A
+877,Java,Loops,Basic,Can a loop contain another loop?,Yes,No,Only while,Only for,A
+878,Python,Functions,Basic,What is recursion?,Function calling itself,Function overloading,Function importing,Function sorting,A
+879,Java,If Else,Basic,Can conditions be nested in Java?,Yes,No,Only in loops,Only in arrays,A
+880,Java,Strings,Basic,"What is ""Java"".length()?",4,3,5,0,A
+881,Java,If Else,Hard,Which operator means NOT?,!,&&,||,!=,A
+882,Java,JDBC,Hard,Which method moves ResultSet to next row?,next(),move(),forward(),nextRowOnly(),A
+883,Java,Interfaces,Medium,Can an abstract class implement an interface partially?,Yes,No,Only final,Only static,A
+884,Java,Strings,Hard,What converts text to uppercase?,toUpperCase(),upper(),uppercase(),makeUpper(),A
+885,Python,Sets,Basic,Which operator means symmetric difference?,^,&,|,-,A
+886,Java,OOP,Basic,Which keyword prevents class inheritance?,final,static,private,const,A
+887,Python,Sets,Hard,What creates an empty set?,set(),{},[],(),A
+888,Java,Loops,Basic,Which loop executes at least once?,do-while,while,for,if,A
+889,Python,OOP,Medium,What does super() provide?,Access to parent behavior,Current object only,Global variables,Modules,A
+890,Java,Exception Handling,Hard,Which keyword explicitly throws an exception?,throw,throws,error,raise,A
+891,Python,Dictionaries,Hard,What creates an empty set?,set(),{},[],(),A
+892,Python,Dictionaries,Medium,Which method updates a dictionary?,update(),addOnly(),insertKey(),put(),A
+893,Python,Dictionaries,Medium,Can dictionary values be duplicated?,Yes,No,Only numbers,Only strings,A
+894,Java,Collections,Hard,Can HashMap have a null key?,Yes,No,Only TreeMap,Only if empty,A
+895,Python,Dictionaries,Basic,Which method gets a value?,get(),fetchOnly(),value(),read(),A
+896,Java,Collections,Basic,Which collection disallows duplicates?,HashSet,ArrayList,LinkedList,Vector,A
+897,Python,Dictionaries,Medium,What is {'a':1}['a']?,1,a,0,Error,A
+898,Java,JDBC,Basic,Which object creates PreparedStatement?,Connection,ResultSet,Driver,Scanner,A
+899,Java,JDBC,Basic,Which interface stores query results?,ResultSet,Connection,Statement,Driver,A
+900,Python,Exception Handling,Hard,What base class catches most ordinary exceptions?,Exception,Error,BaseError,Throwable,A
+901,Python,Functions,Basic,What is a docstring?,Documentation string,Error message,Variable,Import,A
+902,Python,OOP,Basic,Can classes have class variables?,Yes,No,Only static,Only constants,A
+903,Java,Collections,Medium,Which collection stores key-value pairs?,HashMap,HashSet,ArrayList,TreeSet,A
+904,Java,OOP,Basic,Which keyword creates an object?,new,create,object,make,A
+905,Java,Strings,Basic,Which method removes leading/trailing spaces?,trim(),removeSpace(),stripOnly(),clean(),A
+906,Python,Loops,Basic,What does range(3) produce?,"0,1,2","1,2,3","0,1,2,3",3 only,A
+907,Python,Dictionaries,Medium,What does clear() do?,Removes all items,Deletes variable,Sorts,Copies,A
+908,Java,Methods,Basic,What defines a method's output type?,Return type,Parameter,Class name,Package,A
+909,Python,Dictionaries,Basic,Which method updates a dictionary?,update(),addOnly(),insertKey(),put(),A
+910,Java,JDBC,Medium,Which method gets an integer column?,getInt(),readInt(),intValue(),fetchInt(),A
+911,Python,Functions,Medium,What is a parameter?,Variable in function definition,Returned value,Module,Class,A
+912,Python,Sets,Medium,Which method removes and errors if absent?,remove(),discard(),delete(),erase(),A
+913,Java,Arrays,Basic,"What is int[] a={1,2,3}; a[1]?",2,1,3,0,A
+914,Python,Loops,Basic,"What is range(1,4)?","1,2,3","1,2,3,4","0,1,2",4 only,A
+915,Java,Interfaces,Hard,Can an interface be instantiated directly?,No,Yes,Only static,Only default,A
+916,Java,If Else,Basic,Which keyword starts a conditional statement?,if,for,class,import,A
+917,Python,Strings,Hard,"What is ""Python""[0]?",P,y,n,Python,A
+918,Python,Exception Handling,Medium,What does raise ValueError() do?,Raises ValueError,Returns value,Catches error,Ignores error,A
+919,Python,Loops,Basic,What does break do?,Ends nearest loop,Skips iteration,Ends program,Restarts loop,A
+920,Java,Loops,Medium,Which statement moves to the next iteration?,continue,break,return,class,A
+921,Java,OOP,Basic,Which keyword defines a class?,class,Class,define,object,A
+922,Java,If Else,Hard,What is the result of 5 > 3?,true,false,5,3,A
+923,Python,Sets,Medium,Can a list be a set element?,No,Yes,Only empty,Only sorted,A
+924,Python,If Else,Basic,What does == compare?,Values,Assignment,Types only,Loops,A
+925,Java,Methods,Medium,Can a method return an object?,Yes,No,Only int,Only String,A
+926,Java,JDBC,Basic,Which interface supports parameterized SQL?,PreparedStatement,Statement,ResultSet,Driver,A
+927,Java,Interfaces,Basic,Can default interface methods be overridden?,Yes,No,Only static,Only final,A
+928,Java,Loops,Hard,Can while execute zero times?,Yes,No,Only with break,Only with continue,A
+929,Java,Exception Handling,Hard,Which is a checked exception?,IOException,ArithmeticException,NullPointerException,ArrayIndexOutOfBoundsException,A
+930,Python,OOP,Hard,Can classes have instance variables?,Yes,No,Only methods,Only strings,A
+931,Python,Loops,Basic,How many iterations are in range(5)?,5,4,6,0,A
+932,Java,Exception Handling,Hard,What exception occurs for invalid array index?,ArrayIndexOutOfBoundsException,IOException,ArithmeticException,ClassNotFoundException,A
+933,Python,Sets,Medium,Can a hashable tuple be a set element?,Yes,No,Only one-item,Never,A
+934,Java,OOP,Hard,Can a constructor have a return type?,No,Yes,Only void,Only int,A
+935,Java,If Else,Basic,Which operator checks equality?,==,=,=>,equals,A
+936,Java,Exception Handling,Basic,What does getMessage() return?,Exception message,Exception class only,Stack memory,Line number only,A
+937,Python,Lists,Basic,Which brackets create a list?,[],{},(),<>,A
+938,Java,Interfaces,Hard,Can an interface extend another interface?,Yes,No,Only classes,Only abstract classes,A
+939,Java,Collections,Medium,Which method gets a List element?,get(),fetch(),read(),item(),A
+940,Java,Strings,Basic,What does startsWith() check?,Prefix,Suffix,Length,Case,A
+941,Python,Functions,Hard,What does len() return?,Length,Type,Index,Memory address,A
+942,Python,Exception Handling,Hard,What occurs for invalid list index?,IndexError,KeyError,ValueError,TypeError,A
+943,Python,Lists,Hard,Which method counts occurrences?,count(),frequency(),occurs(),number(),A
+944,Python,Functions,Medium,Which keyword returns a value?,return,give,yieldOnly,output,A
+945,Java,JDBC,Hard,What does JDBC stand for?,Java Database Connectivity,Java Data Base Compiler,Java Data Connection,Java Database Code,A
+946,Python,Exception Handling,Medium,What does try-else mean?,else runs if no exception,else runs on error,else always runs,else never runs,A
+947,Python,If Else,Basic,Which type stores True or False?,bool,int,str,float,A
+948,Python,Functions,Medium,What does **kwargs collect?,Keyword arguments,Positional arguments,Lists,Tuples only,A
+949,Java,OOP,Hard,Which keyword refers to parent members?,super,parent,base,this,A
+950,Python,Loops,Basic,Can for iterate over a string?,Yes,No,Only lists,Only numbers,A
+951,Python,OOP,Medium,Can Python support multiple inheritance?,Yes,No,Only two classes,Only interfaces,A
+952,Python,Loops,Basic,What does continue do?,Skips current iteration,Ends loop,Returns value,Raises exception,A
+953,Python,Tuples,Hard,Can tuples contain duplicates?,Yes,No,Only two,Only strings,A
+954,Java,Strings,Hard,What gets a character by index?,charAt(),getChar(),character(),at(),A
+955,Python,Sets,Medium,Are sets indexed?,No,Yes,Only sorted,Only one-item,A
+956,Python,Tuples,Hard,"What is tuple([1,2])?","(1,2)","[1,2]","{1,2}",Error,A
+957,Java,JDBC,Medium,Which method moves ResultSet to next row?,next(),move(),forward(),nextRowOnly(),A
+958,Python,Tuples,Medium,What is ()?,Empty tuple,Empty list,Empty set,None,A
+959,Python,If Else,Basic,Can if exist without else?,Yes,No,Only loops,Only functions,A
+960,Java,Loops,Basic,What does i++ do?,Increases i by 1,Decreases i,Multiplies i,Sets i to 0,A
+961,Java,JDBC,Medium,Which method executes INSERT/UPDATE/DELETE?,executeUpdate(),executeQuery(),executeChange(),updateQuery(),A
+962,Python,Loops,Basic,Can for iterate over a list?,Yes,No,Only numbers,Only strings,A
+963,Python,OOP,Basic,What is polymorphism?,Different implementations of a common operation,Only inheritance,Only functions,Only modules,A
+964,Python,Dictionaries,Hard,What is an empty dictionary?,{},set(),[],None,A
+965,Java,Collections,Basic,Which collection stores key-value pairs?,HashMap,HashSet,ArrayList,TreeSet,A
+966,Java,If Else,Medium,Which operator means logical AND?,&&,||,!,&|,A
+967,Java,Exception Handling,Basic,Which class represents serious JVM problems?,Error,Exception,RuntimeException,IOException,A
+968,Java,JDBC,Basic,Which method gets an integer column?,getInt(),readInt(),intValue(),fetchInt(),A
+969,Java,Strings,Basic,Which method checks whether text exists?,contains(),has(),findOnly(),inside(),A
+970,Java,Collections,Medium,Which Map method adds a key-value pair?,put(),add(),setOnly(),insert(),A
+971,Python,Exception Handling,Basic,What occurs for division by zero?,ZeroDivisionError,ArithmeticErrorOnly,ValueError,TypeError,A
+972,Java,Strings,Hard,"What is ""Java"".charAt(0)?",J,a,v,Java,A
+973,Java,Interfaces,Hard,Which keyword implements an interface?,implements,extends,inherits,uses,A
+974,Python,Functions,Basic,What is an argument?,Value passed to a function,Function name,Return type,Module,A
+975,Java,Methods,Basic,Can methods accept object references?,Yes,No,Only arrays,Only interfaces,A
+976,Java,JDBC,Hard,Which method executes INSERT/UPDATE/DELETE?,executeUpdate(),executeQuery(),executeChange(),updateQuery(),A
+977,Java,Exception Handling,Hard,What exception occurs for integer division by zero?,ArithmeticException,IOException,NullPointerException,NumberException,A
+978,Python,Sets,Medium,Are sets mutable?,Yes,No,Only frozenset,Only empty,A
+979,Java,Exception Handling,Basic,Can finally exist without catch?,Yes,No,Only with throw,Only in loops,A
+980,Python,Tuples,Basic,What is tuple packing?,Putting values into a tuple,Sorting,Unpacking,Deleting,A
+981,Java,Arrays,Medium,Default boolean array values are?,false,true,0,null,A
+982,Python,Tuples,Basic,Are tuples ordered?,Yes,No,Only empty,Only nested,A
+983,Python,OOP,Medium,Which concept hides implementation details?,Abstraction,Iteration,Import,Compilation,A
+984,Java,Loops,Hard,What is the first array index?,0,1,-1,10,A
+985,Java,Interfaces,Medium,Can an interface be instantiated directly?,No,Yes,Only static,Only default,A
+986,Java,Loops,Hard,Which keyword skips the current iteration?,continue,break,return,skip,A
+987,Java,JDBC,Basic,Which method moves ResultSet to next row?,next(),move(),forward(),nextRowOnly(),A
+988,Java,Exception Handling,Medium,Which class represents serious JVM problems?,Error,Exception,RuntimeException,IOException,A
+989,Java,OOP,Basic,Can an abstract class be instantiated directly?,No,Yes,Only with new,Only in main,A
+990,Java,JDBC,Basic,What does autoCommit true mean?,Statements are committed automatically,No statements run,Only SELECT runs,Transactions are disabled,A
+991,Java,Arrays,Medium,Can array size change after creation?,No,Yes,Only smaller,Only larger,A
+992,Python,Lists,Basic,Can lists contain mixed types?,Yes,No,Only strings,Only numbers,A
+993,Java,If Else,Medium,What is the result of 10 == 10?,true,false,10,error,A
+994,Python,Dictionaries,Basic,What do dictionaries store?,Key-value pairs,Only values,Only keys,Numbers only,A
+995,Java,Loops,Medium,Which keyword exits a loop?,break,continue,next,exitLoop,A
+996,Java,Arrays,Basic,Which index is last for length 5?,4,5,3,0,A
+997,Java,Collections,Medium,Which collection stores sorted unique elements?,TreeSet,HashSet,ArrayList,HashMap,A
+998,Python,OOP,Basic,Which function checks instance?,isinstance(),instanceOf(),checkInstance(),typeIs(),A
+999,Java,Methods,Hard,What defines a method's output type?,Return type,Parameter,Class name,Package,A
+1000,Java,Arrays,Basic,Which property gives array length?,length,size(),count(),capacity(),A

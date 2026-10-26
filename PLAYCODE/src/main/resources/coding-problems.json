@@ -1,0 +1,414 @@
+[
+  {
+    "id": "if-even",
+    "title": "Even or Odd Ticket",
+    "topic": "If / Else",
+    "difficulty": "Easy",
+    "story": "A ticket kiosk must label each ticket number as EVEN or ODD. Read one integer n and print EVEN when divisible by 2; otherwise print ODD.",
+    "input": "One integer n.",
+    "output": "EVEN or ODD in uppercase.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args) { Scanner sc=new Scanner(System.in); int n=sc.nextInt(); // write your logic\n } }",
+    "python": "n = int(input())\n# write your logic",
+    "tests": [
+      [
+        "8",
+        "EVEN"
+      ],
+      [
+        "13",
+        "ODD"
+      ],
+      [
+        "0",
+        "EVEN"
+      ],
+      [
+        "-5",
+        "ODD"
+      ]
+    ]
+  },
+  {
+    "id": "if-grade",
+    "title": "Exam Result Checker",
+    "topic": "If / Else",
+    "difficulty": "Easy",
+    "story": "A college portal receives a student's mark out of 100. Print PASS if mark is 40 or more, otherwise print FAIL.",
+    "input": "One integer mark.",
+    "output": "PASS or FAIL.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args) { Scanner sc=new Scanner(System.in); int mark=sc.nextInt(); // write your logic\n } }",
+    "python": "mark = int(input())\n# write your logic",
+    "tests": [
+      [
+        "40",
+        "PASS"
+      ],
+      [
+        "39",
+        "FAIL"
+      ],
+      [
+        "100",
+        "PASS"
+      ],
+      [
+        "0",
+        "FAIL"
+      ]
+    ]
+  },
+  {
+    "id": "loops-sum",
+    "title": "Daily Savings Total",
+    "topic": "Loops",
+    "difficulty": "Easy",
+    "story": "A student saves 1, 2, 3 ... n rupees over n days. Read n and print the total savings using a loop or formula.",
+    "input": "One integer n (0 to 100000).",
+    "output": "Sum from 1 to n.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args) { Scanner sc=new Scanner(System.in); int n=sc.nextInt(); // print total\n } }",
+    "python": "n = int(input())\n# print total",
+    "tests": [
+      [
+        "5",
+        "15"
+      ],
+      [
+        "1",
+        "1"
+      ],
+      [
+        "10",
+        "55"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  },
+  {
+    "id": "loops-factorial",
+    "title": "Festival Arrangement Count",
+    "topic": "Loops",
+    "difficulty": "Medium",
+    "story": "A festival team wants the number of ways to arrange n unique decorations in a row. Read n and print n factorial. Use a loop.",
+    "input": "One integer n (0 to 12).",
+    "output": "n factorial.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args) { Scanner sc=new Scanner(System.in); int n=sc.nextInt(); // print factorial\n } }",
+    "python": "n = int(input())\n# print factorial",
+    "tests": [
+      [
+        "5",
+        "120"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "1"
+      ],
+      [
+        "6",
+        "720"
+      ]
+    ]
+  },
+  {
+    "id": "array-max",
+    "title": "Top Scorer Finder",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "story": "Given n exam marks, find the highest mark. Input contains n followed by n integers.",
+    "input": "First n, then n integers separated by spaces.",
+    "output": "The maximum value.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args) { Scanner sc=new Scanner(System.in); int n=sc.nextInt(); int[] a=new int[n]; for(int i=0;i<n;i++)a[i]=sc.nextInt(); // print max\n } }",
+    "python": "data = list(map(int, input().split()))\n# input may be on multiple lines; read all integers\n# print max value",
+    "tests": [
+      [
+        "5\n12 45 8 67 31",
+        "67"
+      ],
+      [
+        "1\n-4",
+        "-4"
+      ],
+      [
+        "4\n2 2 2 2",
+        "2"
+      ]
+    ]
+  },
+  {
+    "id": "array-average",
+    "title": "Class Average Calculator",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "story": "A teacher enters n student marks. Print the average as a number with exactly 2 digits after the decimal point.",
+    "input": "First n, then n marks.",
+    "output": "Average with 2 decimal places.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args) { Scanner sc=new Scanner(System.in); int n=sc.nextInt(); double sum=0; for(int i=0;i<n;i++)sum+=sc.nextInt(); System.out.printf(\"%.2f%n\",sum/n); } }",
+    "python": "import sys\ndata=list(map(int,sys.stdin.read().split()))\nn=data[0]; marks=data[1:1+n]\nprint(f'{sum(marks)/n:.2f}')",
+    "tests": [
+      [
+        "4\n80 90 70 60",
+        "75.00"
+      ],
+      [
+        "3\n1 2 3",
+        "2.00"
+      ]
+    ]
+  },
+  {
+    "id": "string-vowels",
+    "title": "Customer Name Analyzer",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "story": "A signup form needs to count vowels in a name. Read one line and print the number of English vowels (a, e, i, o, u), case-insensitive.",
+    "input": "One line of text.",
+    "output": "Vowel count.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args) { Scanner sc=new Scanner(System.in); String s=sc.nextLine().toLowerCase(); int count=0; // count vowels and print\n } }",
+    "python": "s = input().lower()\n# count vowels and print",
+    "tests": [
+      [
+        "Iswarya",
+        "3"
+      ],
+      [
+        "PLAYVERSE",
+        "3"
+      ],
+      [
+        "rhythm",
+        "0"
+      ],
+      [
+        "AEIOU",
+        "5"
+      ]
+    ]
+  },
+  {
+    "id": "string-palindrome",
+    "title": "Reverse-Word Check",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "story": "A message validator checks whether a word reads the same forward and backward. Ignore letter case. Print YES or NO.",
+    "input": "One word.",
+    "output": "YES or NO.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args) { Scanner sc=new Scanner(System.in); String s=sc.next().toLowerCase(); // check palindrome\n } }",
+    "python": "s = input().strip().lower()\n# print YES or NO",
+    "tests": [
+      [
+        "level",
+        "YES"
+      ],
+      [
+        "Code",
+        "NO"
+      ],
+      [
+        "Madam",
+        "YES"
+      ],
+      [
+        "a",
+        "YES"
+      ]
+    ]
+  },
+  {
+    "id": "methods-discount",
+    "title": "Smart Shop Discount",
+    "topic": "Methods",
+    "difficulty": "Easy",
+    "story": "A store gives 10% discount when bill amount is at least 1000, otherwise no discount. Read the bill amount and print the final payable amount with 2 decimals.",
+    "input": "One decimal number amount.",
+    "output": "Final amount with 2 decimal places.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args) { Scanner sc=new Scanner(System.in); double amount=sc.nextDouble(); double total=amount>=1000?amount*0.9:amount; System.out.printf(\"%.2f%n\",total); } }",
+    "python": "amount = float(input())\ntotal = amount * 0.9 if amount >= 1000 else amount\nprint(f'{total:.2f}')",
+    "tests": [
+      [
+        "1200",
+        "1080.00"
+      ],
+      [
+        "999",
+        "999.00"
+      ],
+      [
+        "1000",
+        "900.00"
+      ]
+    ]
+  },
+  {
+    "id": "oop-bank",
+    "title": "Bank Account Interest",
+    "topic": "OOP Basics",
+    "difficulty": "Medium",
+    "story": "A bank calculates simple interest for a savings account. Read principal, annual rate, and years. Print interest = principal × rate × years / 100 with 2 decimals.",
+    "input": "Three numbers: principal rate years.",
+    "output": "Simple interest with 2 decimals.",
+    "java": "import java.util.*;\nclass BankAccount { double interest(double p,double r,double y){ return p*r*y/100; } }\npublic class Main { public static void main(String[] args){ Scanner sc=new Scanner(System.in); double p=sc.nextDouble(),r=sc.nextDouble(),y=sc.nextDouble(); System.out.printf(\"%.2f%n\",new BankAccount().interest(p,r,y)); } }",
+    "python": "p, r, y = map(float, input().split())\nprint(f'{p*r*y/100:.2f}')",
+    "tests": [
+      [
+        "10000 5 2",
+        "1000.00"
+      ],
+      [
+        "2500 4 3",
+        "300.00"
+      ]
+    ]
+  },
+  {
+    "id": "inheritance-pay",
+    "title": "Employee Salary Calculator",
+    "topic": "Inheritance",
+    "difficulty": "Medium",
+    "story": "A payroll system stores an employee's basic salary and bonus. Read both values and print total salary. Structure your solution with a parent Employee class and child Manager class if using Java.",
+    "input": "Two integers: basic salary and bonus.",
+    "output": "Total salary.",
+    "java": "import java.util.*;\nclass Employee { int basic; Employee(int b){basic=b;} }\nclass Manager extends Employee { int bonus; Manager(int b,int x){super(b);bonus=x;} int total(){return basic+bonus;} }\npublic class Main { public static void main(String[] args){ Scanner sc=new Scanner(System.in); int b=sc.nextInt(),x=sc.nextInt(); System.out.println(new Manager(b,x).total()); } }",
+    "python": "basic, bonus = map(int, input().split())\nprint(basic + bonus)",
+    "tests": [
+      [
+        "30000 5000",
+        "35000"
+      ],
+      [
+        "18000 2500",
+        "20500"
+      ]
+    ]
+  },
+  {
+    "id": "poly-area",
+    "title": "Shape Area Calculator",
+    "topic": "Polymorphism",
+    "difficulty": "Medium",
+    "story": "A geometry app calculates area for a rectangle. Read length and width, then print the area. In Java, model the shared operation with an overridden area() method if you want to demonstrate polymorphism.",
+    "input": "Two integers length and width.",
+    "output": "Rectangle area.",
+    "java": "import java.util.*;\nclass Shape { int area(){return 0;} }\nclass Rectangle extends Shape { int l,w; Rectangle(int a,int b){l=a;w=b;} @Override int area(){return l*w;} }\npublic class Main { public static void main(String[] args){ Scanner sc=new Scanner(System.in); System.out.println(new Rectangle(sc.nextInt(),sc.nextInt()).area()); } }",
+    "python": "l, w = map(int, input().split())\nprint(l * w)",
+    "tests": [
+      [
+        "5 4",
+        "20"
+      ],
+      [
+        "12 3",
+        "36"
+      ],
+      [
+        "1 9",
+        "9"
+      ]
+    ]
+  },
+  {
+    "id": "recursion-fibonacci",
+    "title": "Sequence Forecast",
+    "topic": "Recursion",
+    "difficulty": "Medium",
+    "story": "A learning app displays the nth Fibonacci number where F(0)=0 and F(1)=1. Read n and print F(n).",
+    "input": "One integer n (0 to 30).",
+    "output": "Fibonacci number.",
+    "java": "import java.util.*;\npublic class Main { static int fib(int n){ if(n<2)return n; return fib(n-1)+fib(n-2); } public static void main(String[] args){ Scanner sc=new Scanner(System.in); System.out.println(fib(sc.nextInt())); } }",
+    "python": "def fib(n):\n    if n < 2: return n\n    return fib(n-1) + fib(n-2)\nprint(fib(int(input())))",
+    "tests": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "1"
+      ],
+      [
+        "7",
+        "13"
+      ],
+      [
+        "10",
+        "55"
+      ]
+    ]
+  },
+  {
+    "id": "sorting-rank",
+    "title": "Leaderboard Rank Order",
+    "topic": "Sorting",
+    "difficulty": "Easy",
+    "story": "A game server needs player scores sorted from smallest to largest. Read n followed by n scores and print the sorted scores separated by spaces.",
+    "input": "First n, then n integers.",
+    "output": "Sorted integers separated by one space.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args){ Scanner sc=new Scanner(System.in); int n=sc.nextInt(); int[] a=new int[n]; for(int i=0;i<n;i++)a[i]=sc.nextInt(); Arrays.sort(a); for(int i=0;i<n;i++){if(i>0)System.out.print(\" \" );System.out.print(a[i]);} System.out.println(); } }",
+    "python": "import sys\ndata=list(map(int,sys.stdin.read().split())); n=data[0]; a=sorted(data[1:1+n]); print(' '.join(map(str,a)))",
+    "tests": [
+      [
+        "5\n8 1 5 2 9",
+        "1 2 5 8 9"
+      ],
+      [
+        "3\n-1 4 0",
+        "-1 0 4"
+      ]
+    ]
+  },
+  {
+    "id": "search-target",
+    "title": "Find the Product Code",
+    "topic": "Searching",
+    "difficulty": "Easy",
+    "story": "A warehouse checks whether a product code exists in a list. Read n, then n integers, then target. Print the zero-based index of its first occurrence, or -1 if missing.",
+    "input": "n, n integers, target.",
+    "output": "Zero-based index or -1.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args){ Scanner sc=new Scanner(System.in); int n=sc.nextInt(); int[] a=new int[n]; for(int i=0;i<n;i++)a[i]=sc.nextInt(); int target=sc.nextInt(),ans=-1; for(int i=0;i<n;i++)if(a[i]==target){ans=i;break;} System.out.println(ans); } }",
+    "python": "import sys\ndata=list(map(int,sys.stdin.read().split())); n=data[0]; a=data[1:1+n]; target=data[1+n]\nprint(a.index(target) if target in a else -1)",
+    "tests": [
+      [
+        "5\n3 7 2 7 9\n7",
+        "1"
+      ],
+      [
+        "4\n1 2 3 4\n8",
+        "-1"
+      ]
+    ]
+  },
+  {
+    "id": "math-prime",
+    "title": "Prime Number Gate",
+    "topic": "Functions",
+    "difficulty": "Medium",
+    "story": "An access gate allows only prime-numbered entry tokens. Read n and print PRIME or NOT PRIME.",
+    "input": "One integer n.",
+    "output": "PRIME or NOT PRIME.",
+    "java": "import java.util.*;\npublic class Main { public static void main(String[] args){ Scanner sc=new Scanner(System.in); int n=sc.nextInt(); boolean prime=n>=2; for(int i=2;i*i<=n;i++)if(n%i==0){prime=false;break;} System.out.println(prime?\"PRIME\":\"NOT PRIME\"); } }",
+    "python": "n=int(input())\nprime=n>=2\nfor i in range(2,int(n**0.5)+1):\n    if n%i==0: prime=False; break\nprint('PRIME' if prime else 'NOT PRIME')",
+    "tests": [
+      [
+        "7",
+        "PRIME"
+      ],
+      [
+        "1",
+        "NOT PRIME"
+      ],
+      [
+        "21",
+        "NOT PRIME"
+      ],
+      [
+        "2",
+        "PRIME"
+      ]
+    ]
+  }
+]
